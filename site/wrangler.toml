@@ -1,5 +1,6 @@
 name = "reposignal"
 compatibility_date = "2026-05-27"
+compatibility_flags = ["nodejs_compat"]
 pages_build_output_dir = ".svelte-kit/cloudflare"
 
 # Storage bindings are disabled until real Cloudflare resources exist.

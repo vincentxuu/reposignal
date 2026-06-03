@@ -4,11 +4,18 @@ import path from 'node:path';
 const root = path.resolve(process.cwd(), '..');
 
 export function loadAnalysis() {
-  const file = path.join(root, 'data', 'analysis', 'current.json');
-  if (!fs.existsSync(file)) {
+  // Filesystem reads only work at build/prerender time. On the Cloudflare
+  // Worker there is no filesystem, so any failure falls back to empty — the
+  // runtime data path for the Worker is KV (see loadRuntimeAnalysis).
+  try {
+    const file = path.join(root, 'data', 'analysis', 'current.json');
+    if (!fs.existsSync(file)) {
+      return emptyAnalysis();
+    }
+    return JSON.parse(fs.readFileSync(file, 'utf-8'));
+  } catch {
     return emptyAnalysis();
   }
-  return JSON.parse(fs.readFileSync(file, 'utf-8'));
 }
 
 export function loadRepoSources(owner, name) {
@@ -28,11 +35,15 @@ export function loadRepoSources(owner, name) {
 }
 
 export function loadConfigBatch(name) {
-  const file = path.join(root, 'data', 'configs', `${name}.json`);
-  if (!fs.existsSync(file)) {
+  try {
+    const file = path.join(root, 'data', 'configs', `${name}.json`);
+    if (!fs.existsSync(file)) {
+      return null;
+    }
+    return JSON.parse(fs.readFileSync(file, 'utf-8'));
+  } catch {
     return null;
   }
-  return JSON.parse(fs.readFileSync(file, 'utf-8'));
 }
 
 export async function loadRuntimeAnalysis(platform) {
