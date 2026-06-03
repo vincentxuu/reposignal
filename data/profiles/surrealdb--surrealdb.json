@@ -1,0 +1,30 @@
+{
+  "repo": "surrealdb/surrealdb",
+  "url": "https://github.com/surrealdb/surrealdb",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 13,
+    "patterns": [
+      "chaos-engineering",
+      "cross-version-compat",
+      "fuzz-randomized-testing",
+      "hardware-matrix",
+      "least-privilege-permissions",
+      "multi-channel-release",
+      "multi-stage-release",
+      "multiple-build-systems",
+      "per-sample-ci",
+      "performance-tracking",
+      "security-scanning"
+    ],
+    "security_score": 41.67,
+    "maturity_pct": 83
+  }
+}

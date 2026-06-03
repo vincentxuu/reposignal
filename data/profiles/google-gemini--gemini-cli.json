@@ -1,0 +1,29 @@
+{
+  "repo": "google-gemini/gemini-cli",
+  "url": "https://github.com/google-gemini/gemini-cli",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 41,
+    "patterns": [
+      "chaos-engineering",
+      "cross-version-compat",
+      "ecosystem-ci",
+      "hardware-matrix",
+      "least-privilege-permissions",
+      "multi-channel-release",
+      "multi-stage-release",
+      "per-sample-ci",
+      "performance-tracking",
+      "security-scanning"
+    ],
+    "security_score": 23.15,
+    "maturity_pct": 83
+  }
+}

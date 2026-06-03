@@ -1,0 +1,25 @@
+{
+  "repo": "hoppscotch/hoppscotch",
+  "url": "https://github.com/hoppscotch/hoppscotch",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 5,
+    "patterns": [
+      "chaos-engineering",
+      "hardware-matrix",
+      "multi-stage-release",
+      "multiple-build-systems",
+      "performance-tracking",
+      "security-scanning"
+    ],
+    "security_score": 12.5,
+    "maturity_pct": 50
+  }
+}

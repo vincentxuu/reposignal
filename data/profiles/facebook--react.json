@@ -1,0 +1,29 @@
+{
+  "repo": "facebook/react",
+  "url": "https://github.com/facebook/react",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 24,
+    "patterns": [
+      "container-signing",
+      "cross-version-compat",
+      "ecosystem-ci",
+      "fuzz-randomized-testing",
+      "hardware-matrix",
+      "least-privilege-permissions",
+      "multi-channel-release",
+      "multi-stage-release",
+      "performance-tracking",
+      "reusable-workflows"
+    ],
+    "security_score": 45.0,
+    "maturity_pct": 67
+  }
+}

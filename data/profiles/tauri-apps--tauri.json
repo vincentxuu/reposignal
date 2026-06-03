@@ -1,0 +1,27 @@
+{
+  "repo": "tauri-apps/tauri",
+  "url": "https://github.com/tauri-apps/tauri",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 21,
+    "patterns": [
+      "chaos-engineering",
+      "hardware-matrix",
+      "least-privilege-permissions",
+      "multi-channel-release",
+      "multi-stage-release",
+      "multiple-build-systems",
+      "per-sample-ci",
+      "performance-tracking"
+    ],
+    "security_score": 2.38,
+    "maturity_pct": 67
+  }
+}

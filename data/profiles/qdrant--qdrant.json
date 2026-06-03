@@ -1,0 +1,29 @@
+{
+  "repo": "qdrant/qdrant",
+  "url": "https://github.com/qdrant/qdrant",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 15,
+    "patterns": [
+      "chaos-engineering",
+      "container-signing",
+      "flaky-test-retry",
+      "hardware-matrix",
+      "least-privilege-permissions",
+      "multi-channel-release",
+      "multi-stage-release",
+      "multiple-build-systems",
+      "per-sample-ci",
+      "performance-tracking"
+    ],
+    "security_score": 23.33,
+    "maturity_pct": 50
+  }
+}

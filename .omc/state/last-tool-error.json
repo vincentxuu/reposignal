@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"cd /Users/xiaoxu/Projects/reposignal/site\\necho \\\"############ 首頁 dashboard (+page.svelte) ############\\\"; cat src/routes/+page.svelte\\necho; echo \\\"############ 單一 repo 頁 server loader ##...",
+  "error": "Exit code 1\n############ 首頁 dashboard (+page.svelte) ############\n<script>\n  import { pct, repoHref } from '$lib/format.js';\n  export let data;\n  const analysis = data.analysis;\n  const patterns = analysis.pattern_detection?.patterns || [];\n  const topPatterns = patterns.slice(0, 8);\n  const security = analysis.security_posture || {};\n  const quality = analysis.data_quality || {};\n</script>\n\n<section class=\"page-head\">\n  <div>\n    <h1>Engineering Intelligence Dashboard</h1>\n    <p class=\"muted\">...",
+  "timestamp": "2026-06-03T00:13:20.399Z",
+  "retry_count": 1
+}

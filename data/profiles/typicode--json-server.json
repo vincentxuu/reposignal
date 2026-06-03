@@ -1,0 +1,21 @@
+{
+  "repo": "typicode/json-server",
+  "url": "https://github.com/typicode/json-server",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 2,
+    "patterns": [
+      "container-signing",
+      "least-privilege-permissions"
+    ],
+    "security_score": 19.17,
+    "maturity_pct": 17
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "repo": "InternLM/lmdeploy",
+  "url": "https://github.com/InternLM/lmdeploy",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 20,
+    "patterns": [
+      "cross-version-compat",
+      "flaky-test-retry",
+      "hardware-matrix",
+      "least-privilege-permissions",
+      "multi-channel-release",
+      "multi-stage-release",
+      "per-sample-ci",
+      "performance-tracking"
+    ],
+    "security_score": 5.0,
+    "maturity_pct": 50
+  }
+}

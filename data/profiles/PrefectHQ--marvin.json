@@ -1,0 +1,21 @@
+{
+  "repo": "PrefectHQ/marvin",
+  "url": "https://github.com/PrefectHQ/marvin",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 8,
+    "patterns": [
+      "least-privilege-permissions",
+      "multi-stage-release"
+    ],
+    "security_score": 18.75,
+    "maturity_pct": 50
+  }
+}

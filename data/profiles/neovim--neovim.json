@@ -1,0 +1,30 @@
+{
+  "repo": "neovim/neovim",
+  "url": "https://github.com/neovim/neovim",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 21,
+    "patterns": [
+      "ai-code-review",
+      "flaky-test-retry",
+      "hardware-matrix",
+      "least-privilege-permissions",
+      "multi-channel-release",
+      "multi-stage-release",
+      "multiple-build-systems",
+      "per-sample-ci",
+      "performance-tracking",
+      "reusable-workflows",
+      "security-scanning"
+    ],
+    "security_score": 40.83,
+    "maturity_pct": 67
+  }
+}

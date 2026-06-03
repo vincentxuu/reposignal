@@ -1,0 +1,33 @@
+{
+  "repo": "astral-sh/uv",
+  "url": "https://github.com/astral-sh/uv",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 25,
+    "patterns": [
+      "chaos-engineering",
+      "container-signing",
+      "cross-version-compat",
+      "dogfooding",
+      "ecosystem-ci",
+      "flaky-test-retry",
+      "hardware-matrix",
+      "least-privilege-permissions",
+      "multi-stage-release",
+      "multiple-build-systems",
+      "per-sample-ci",
+      "performance-tracking",
+      "python-future-testing",
+      "reusable-workflows"
+    ],
+    "security_score": 42.0,
+    "maturity_pct": 67
+  }
+}

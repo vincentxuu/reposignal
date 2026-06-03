@@ -1,0 +1,20 @@
+{
+  "repo": "facebook/create-react-app",
+  "url": "https://github.com/facebook/create-react-app",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 3,
+    "patterns": [
+      "reusable-workflows"
+    ],
+    "security_score": 0.0,
+    "maturity_pct": 17
+  }
+}

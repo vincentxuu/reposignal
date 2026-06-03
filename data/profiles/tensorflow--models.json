@@ -1,0 +1,20 @@
+{
+  "repo": "tensorflow/models",
+  "url": "https://github.com/tensorflow/models",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 2,
+    "patterns": [
+      "least-privilege-permissions"
+    ],
+    "security_score": 25.0,
+    "maturity_pct": 17
+  }
+}

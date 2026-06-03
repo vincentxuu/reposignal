@@ -1,0 +1,23 @@
+{
+  "repo": "anthropics/claude-code",
+  "url": "https://github.com/anthropics/claude-code",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 12,
+    "patterns": [
+      "ai-code-review",
+      "ai-security-review",
+      "dogfooding",
+      "least-privilege-permissions"
+    ],
+    "security_score": 12.5,
+    "maturity_pct": 50
+  }
+}

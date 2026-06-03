@@ -1,0 +1,30 @@
+{
+  "repo": "denoland/deno",
+  "url": "https://github.com/denoland/deno",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 10,
+    "patterns": [
+      "chaos-engineering",
+      "cross-version-compat",
+      "dogfooding",
+      "ecosystem-ci",
+      "fuzz-randomized-testing",
+      "hardware-matrix",
+      "least-privilege-permissions",
+      "multi-channel-release",
+      "multi-stage-release",
+      "multiple-build-systems",
+      "performance-tracking"
+    ],
+    "security_score": 2.5,
+    "maturity_pct": 67
+  }
+}

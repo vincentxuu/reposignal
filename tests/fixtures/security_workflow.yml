@@ -1,0 +1,9 @@
+name: Security
+on: push
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: aquasecurity/trivy-action@master
+      - uses: github/codeql-action/analyze@v3

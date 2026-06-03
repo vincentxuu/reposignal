@@ -1,0 +1,28 @@
+{
+  "repo": "milvus-io/milvus",
+  "url": "https://github.com/milvus-io/milvus",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 30,
+    "patterns": [
+      "ai-code-review",
+      "chaos-engineering",
+      "dogfooding",
+      "ecosystem-ci",
+      "flaky-test-retry",
+      "least-privilege-permissions",
+      "multi-channel-release",
+      "multi-stage-release",
+      "per-sample-ci"
+    ],
+    "security_score": 0.83,
+    "maturity_pct": 83
+  }
+}

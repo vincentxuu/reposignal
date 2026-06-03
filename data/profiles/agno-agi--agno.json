@@ -1,0 +1,26 @@
+{
+  "repo": "agno-agi/agno",
+  "url": "https://github.com/agno-agi/agno",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 8,
+    "patterns": [
+      "ai-code-review",
+      "chaos-engineering",
+      "ecosystem-ci",
+      "least-privilege-permissions",
+      "multi-stage-release",
+      "multiple-build-systems",
+      "performance-tracking"
+    ],
+    "security_score": 6.25,
+    "maturity_pct": 67
+  }
+}

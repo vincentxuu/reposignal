@@ -1,0 +1,21 @@
+{
+  "repo": "Alliedium/awesome-github-actions",
+  "url": "https://github.com/Alliedium/awesome-github-actions",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 13,
+    "patterns": [
+      "chaos-engineering",
+      "cross-version-compat"
+    ],
+    "security_score": 0.0,
+    "maturity_pct": 17
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "repo": "microsoft/promptflow",
+  "url": "https://github.com/microsoft/promptflow",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 120,
+    "patterns": [
+      "ai-code-review",
+      "container-signing",
+      "cross-version-compat",
+      "dogfooding",
+      "least-privilege-permissions",
+      "multi-channel-release",
+      "multi-stage-release",
+      "per-sample-ci",
+      "performance-tracking",
+      "reusable-workflows"
+    ],
+    "security_score": 34.37,
+    "maturity_pct": 50
+  }
+}

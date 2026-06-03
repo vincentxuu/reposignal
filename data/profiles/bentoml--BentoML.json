@@ -1,0 +1,22 @@
+{
+  "repo": "bentoml/BentoML",
+  "url": "https://github.com/bentoml/BentoML",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 5,
+    "patterns": [
+      "cross-version-compat",
+      "performance-tracking",
+      "security-scanning"
+    ],
+    "security_score": 12.5,
+    "maturity_pct": 50
+  }
+}

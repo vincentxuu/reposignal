@@ -1,0 +1,32 @@
+{
+  "repo": "grafana/grafana",
+  "url": "https://github.com/grafana/grafana",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 86,
+    "patterns": [
+      "chaos-engineering",
+      "cross-version-compat",
+      "dogfooding",
+      "ecosystem-ci",
+      "hardware-matrix",
+      "least-privilege-permissions",
+      "multi-channel-release",
+      "multi-stage-release",
+      "multiple-build-systems",
+      "per-sample-ci",
+      "performance-tracking",
+      "reusable-workflows",
+      "security-scanning"
+    ],
+    "security_score": 43.07,
+    "maturity_pct": 83
+  }
+}

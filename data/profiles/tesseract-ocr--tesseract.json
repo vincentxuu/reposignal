@@ -1,0 +1,26 @@
+{
+  "repo": "tesseract-ocr/tesseract",
+  "url": "https://github.com/tesseract-ocr/tesseract",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 14,
+    "patterns": [
+      "fuzz-randomized-testing",
+      "hardware-matrix",
+      "multi-channel-release",
+      "multi-stage-release",
+      "per-sample-ci",
+      "performance-tracking",
+      "security-scanning"
+    ],
+    "security_score": 8.33,
+    "maturity_pct": 33
+  }
+}

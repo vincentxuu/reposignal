@@ -1,0 +1,31 @@
+{
+  "repo": "home-assistant/core",
+  "url": "https://github.com/home-assistant/core",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 10,
+    "patterns": [
+      "ai-code-review",
+      "ai-security-review",
+      "chaos-engineering",
+      "container-signing",
+      "dogfooding",
+      "flaky-test-retry",
+      "hardware-matrix",
+      "least-privilege-permissions",
+      "multi-channel-release",
+      "multi-stage-release",
+      "performance-tracking",
+      "security-scanning"
+    ],
+    "security_score": 68.33,
+    "maturity_pct": 83
+  }
+}

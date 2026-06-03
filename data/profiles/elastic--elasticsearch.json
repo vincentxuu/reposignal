@@ -1,0 +1,23 @@
+{
+  "repo": "elastic/elasticsearch",
+  "url": "https://github.com/elastic/elasticsearch",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 4,
+    "patterns": [
+      "dogfooding",
+      "hardware-matrix",
+      "least-privilege-permissions",
+      "reusable-workflows"
+    ],
+    "security_score": 12.5,
+    "maturity_pct": 33
+  }
+}

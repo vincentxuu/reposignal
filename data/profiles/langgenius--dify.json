@@ -1,0 +1,27 @@
+{
+  "repo": "langgenius/dify",
+  "url": "https://github.com/langgenius/dify",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 22,
+    "patterns": [
+      "ai-code-review",
+      "cross-version-compat",
+      "hardware-matrix",
+      "least-privilege-permissions",
+      "multi-stage-release",
+      "multiple-build-systems",
+      "per-sample-ci",
+      "reusable-workflows"
+    ],
+    "security_score": 13.64,
+    "maturity_pct": 83
+  }
+}

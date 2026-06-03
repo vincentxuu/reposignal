@@ -1,0 +1,27 @@
+{
+  "repo": "deepset-ai/haystack",
+  "url": "https://github.com/deepset-ai/haystack",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 25,
+    "patterns": [
+      "chaos-engineering",
+      "dogfooding",
+      "least-privilege-permissions",
+      "multi-channel-release",
+      "multi-stage-release",
+      "multiple-build-systems",
+      "per-sample-ci",
+      "reusable-workflows"
+    ],
+    "security_score": 2.0,
+    "maturity_pct": 67
+  }
+}

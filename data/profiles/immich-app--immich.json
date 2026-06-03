@@ -1,0 +1,30 @@
+{
+  "repo": "immich-app/immich",
+  "url": "https://github.com/immich-app/immich",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 23,
+    "patterns": [
+      "chaos-engineering",
+      "container-signing",
+      "dogfooding",
+      "hardware-matrix",
+      "least-privilege-permissions",
+      "multi-stage-release",
+      "multiple-build-systems",
+      "per-sample-ci",
+      "performance-tracking",
+      "reusable-workflows",
+      "security-scanning"
+    ],
+    "security_score": 55.91,
+    "maturity_pct": 83
+  }
+}

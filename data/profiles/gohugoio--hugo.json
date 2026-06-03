@@ -1,0 +1,21 @@
+{
+  "repo": "gohugoio/hugo",
+  "url": "https://github.com/gohugoio/hugo",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 3,
+    "patterns": [
+      "least-privilege-permissions",
+      "multi-stage-release"
+    ],
+    "security_score": 25.0,
+    "maturity_pct": 33
+  }
+}

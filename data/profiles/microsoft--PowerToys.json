@@ -1,0 +1,24 @@
+{
+  "repo": "microsoft/PowerToys",
+  "url": "https://github.com/microsoft/PowerToys",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 6,
+    "patterns": [
+      "container-signing",
+      "dogfooding",
+      "hardware-matrix",
+      "least-privilege-permissions",
+      "multi-stage-release"
+    ],
+    "security_score": 30.0,
+    "maturity_pct": 50
+  }
+}

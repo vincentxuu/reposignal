@@ -1,0 +1,26 @@
+{
+  "repo": "facebook/react-native",
+  "url": "https://github.com/facebook/react-native",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 22,
+    "patterns": [
+      "cross-version-compat",
+      "flaky-test-retry",
+      "least-privilege-permissions",
+      "multi-channel-release",
+      "multi-stage-release",
+      "multiple-build-systems",
+      "reusable-workflows"
+    ],
+    "security_score": 6.82,
+    "maturity_pct": 50
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "repo": "expo/expo",
+  "url": "https://github.com/expo/expo",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 40,
+    "patterns": [
+      "chaos-engineering",
+      "cross-version-compat",
+      "dogfooding",
+      "ecosystem-ci",
+      "least-privilege-permissions",
+      "multi-channel-release",
+      "multi-stage-release",
+      "multiple-build-systems",
+      "per-sample-ci"
+    ],
+    "security_score": 0.62,
+    "maturity_pct": 67
+  }
+}

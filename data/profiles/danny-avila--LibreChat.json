@@ -1,0 +1,24 @@
+{
+  "repo": "danny-avila/LibreChat",
+  "url": "https://github.com/danny-avila/LibreChat",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 21,
+    "patterns": [
+      "chaos-engineering",
+      "container-signing",
+      "least-privilege-permissions",
+      "multi-stage-release",
+      "per-sample-ci"
+    ],
+    "security_score": 10.24,
+    "maturity_pct": 50
+  }
+}

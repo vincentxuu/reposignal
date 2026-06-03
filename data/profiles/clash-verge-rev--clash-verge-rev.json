@@ -1,0 +1,29 @@
+{
+  "repo": "clash-verge-rev/clash-verge-rev",
+  "url": "https://github.com/clash-verge-rev/clash-verge-rev",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 13,
+    "patterns": [
+      "ai-code-review",
+      "ai-security-review",
+      "chaos-engineering",
+      "ecosystem-ci",
+      "hardware-matrix",
+      "least-privilege-permissions",
+      "multi-channel-release",
+      "multi-stage-release",
+      "multiple-build-systems",
+      "reusable-workflows"
+    ],
+    "security_score": 17.31,
+    "maturity_pct": 67
+  }
+}

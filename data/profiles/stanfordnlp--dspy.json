@@ -1,0 +1,21 @@
+{
+  "repo": "stanfordnlp/dspy",
+  "url": "https://github.com/stanfordnlp/dspy",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 4,
+    "patterns": [
+      "cross-version-compat",
+      "python-future-testing"
+    ],
+    "security_score": 0.0,
+    "maturity_pct": 33
+  }
+}

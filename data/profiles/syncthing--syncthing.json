@@ -1,0 +1,25 @@
+{
+  "repo": "syncthing/syncthing",
+  "url": "https://github.com/syncthing/syncthing",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 9,
+    "patterns": [
+      "chaos-engineering",
+      "container-signing",
+      "least-privilege-permissions",
+      "multi-channel-release",
+      "multi-stage-release",
+      "reusable-workflows"
+    ],
+    "security_score": 31.11,
+    "maturity_pct": 50
+  }
+}

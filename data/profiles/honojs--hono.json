@@ -1,0 +1,23 @@
+{
+  "repo": "honojs/hono",
+  "url": "https://github.com/honojs/hono",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 5,
+    "patterns": [
+      "least-privilege-permissions",
+      "multi-channel-release",
+      "multi-stage-release",
+      "performance-tracking"
+    ],
+    "security_score": 10.0,
+    "maturity_pct": 50
+  }
+}

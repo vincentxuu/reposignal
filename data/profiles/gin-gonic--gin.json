@@ -1,0 +1,22 @@
+{
+  "repo": "gin-gonic/gin",
+  "url": "https://github.com/gin-gonic/gin",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 4,
+    "patterns": [
+      "least-privilege-permissions",
+      "performance-tracking",
+      "security-scanning"
+    ],
+    "security_score": 35.42,
+    "maturity_pct": 67
+  }
+}

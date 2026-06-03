@@ -1,0 +1,20 @@
+{
+  "repo": "TheAlgorithms/Python",
+  "url": "https://github.com/TheAlgorithms/Python",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 6,
+    "patterns": [
+      "least-privilege-permissions"
+    ],
+    "security_score": 4.17,
+    "maturity_pct": 33
+  }
+}

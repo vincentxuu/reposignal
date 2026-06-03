@@ -1,0 +1,26 @@
+{
+  "repo": "puppeteer/puppeteer",
+  "url": "https://github.com/puppeteer/puppeteer",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 12,
+    "patterns": [
+      "chaos-engineering",
+      "container-signing",
+      "least-privilege-permissions",
+      "multi-stage-release",
+      "per-sample-ci",
+      "reusable-workflows",
+      "security-scanning"
+    ],
+    "security_score": 40.0,
+    "maturity_pct": 83
+  }
+}

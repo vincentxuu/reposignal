@@ -1,0 +1,29 @@
+{
+  "repo": "angular/angular",
+  "url": "https://github.com/angular/angular",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 13,
+    "patterns": [
+      "dogfooding",
+      "ecosystem-ci",
+      "hardware-matrix",
+      "least-privilege-permissions",
+      "multi-channel-release",
+      "multi-stage-release",
+      "multiple-build-systems",
+      "per-sample-ci",
+      "performance-tracking",
+      "security-scanning"
+    ],
+    "security_score": 31.41,
+    "maturity_pct": 67
+  }
+}

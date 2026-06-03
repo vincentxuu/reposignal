@@ -1,0 +1,21 @@
+{
+  "repo": "NVIDIA/TensorRT-LLM",
+  "url": "https://github.com/NVIDIA/TensorRT-LLM",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 12,
+    "patterns": [
+      "dogfooding",
+      "least-privilege-permissions"
+    ],
+    "security_score": 6.25,
+    "maturity_pct": 33
+  }
+}

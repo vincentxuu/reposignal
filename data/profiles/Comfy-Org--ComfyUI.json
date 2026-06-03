@@ -1,0 +1,29 @@
+{
+  "repo": "Comfy-Org/ComfyUI",
+  "url": "https://github.com/Comfy-Org/ComfyUI",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 21,
+    "patterns": [
+      "ai-contribution-audit",
+      "chaos-engineering",
+      "cross-version-compat",
+      "dogfooding",
+      "hardware-matrix",
+      "least-privilege-permissions",
+      "multi-channel-release",
+      "multi-stage-release",
+      "python-future-testing",
+      "reusable-workflows"
+    ],
+    "security_score": 2.38,
+    "maturity_pct": 50
+  }
+}

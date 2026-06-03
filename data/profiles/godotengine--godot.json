@@ -1,0 +1,25 @@
+{
+  "repo": "godotengine/godot",
+  "url": "https://github.com/godotengine/godot",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 8,
+    "patterns": [
+      "chaos-engineering",
+      "ecosystem-ci",
+      "hardware-matrix",
+      "multi-stage-release",
+      "performance-tracking",
+      "reusable-workflows"
+    ],
+    "security_score": 0.0,
+    "maturity_pct": 50
+  }
+}

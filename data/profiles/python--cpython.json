@@ -1,0 +1,33 @@
+{
+  "repo": "python/cpython",
+  "url": "https://github.com/python/cpython",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 23,
+    "patterns": [
+      "chaos-engineering",
+      "container-signing",
+      "cross-version-compat",
+      "ecosystem-ci",
+      "fuzz-randomized-testing",
+      "hardware-matrix",
+      "least-privilege-permissions",
+      "multi-stage-release",
+      "multiple-build-systems",
+      "per-sample-ci",
+      "performance-tracking",
+      "python-future-testing",
+      "reusable-workflows",
+      "security-scanning"
+    ],
+    "security_score": 22.8,
+    "maturity_pct": 83
+  }
+}

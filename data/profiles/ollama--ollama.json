@@ -1,0 +1,26 @@
+{
+  "repo": "ollama/ollama",
+  "url": "https://github.com/ollama/ollama",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 4,
+    "patterns": [
+      "chaos-engineering",
+      "cross-version-compat",
+      "ecosystem-ci",
+      "hardware-matrix",
+      "multi-stage-release",
+      "multiple-build-systems",
+      "performance-tracking"
+    ],
+    "security_score": 0.0,
+    "maturity_pct": 50
+  }
+}

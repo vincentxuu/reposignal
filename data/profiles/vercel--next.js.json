@@ -1,0 +1,32 @@
+{
+  "repo": "vercel/next.js",
+  "url": "https://github.com/vercel/next.js",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 33,
+    "patterns": [
+      "chaos-engineering",
+      "container-signing",
+      "cross-version-compat",
+      "ecosystem-ci",
+      "flaky-test-retry",
+      "hardware-matrix",
+      "least-privilege-permissions",
+      "multi-channel-release",
+      "multi-stage-release",
+      "multiple-build-systems",
+      "per-sample-ci",
+      "performance-tracking",
+      "reusable-workflows"
+    ],
+    "security_score": 10.46,
+    "maturity_pct": 67
+  }
+}

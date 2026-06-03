@@ -1,0 +1,25 @@
+{
+  "repo": "affaan-m/everything-claude-code",
+  "url": "https://github.com/affaan-m/everything-claude-code",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 7,
+    "patterns": [
+      "ai-code-review",
+      "ecosystem-ci",
+      "least-privilege-permissions",
+      "multi-stage-release",
+      "multiple-build-systems",
+      "performance-tracking"
+    ],
+    "security_score": 17.86,
+    "maturity_pct": 67
+  }
+}

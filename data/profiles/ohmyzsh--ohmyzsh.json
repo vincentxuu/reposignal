@@ -1,0 +1,23 @@
+{
+  "repo": "ohmyzsh/ohmyzsh",
+  "url": "https://github.com/ohmyzsh/ohmyzsh",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 5,
+    "patterns": [
+      "ecosystem-ci",
+      "harden-runner",
+      "least-privilege-permissions",
+      "security-scanning"
+    ],
+    "security_score": 58.33,
+    "maturity_pct": 67
+  }
+}

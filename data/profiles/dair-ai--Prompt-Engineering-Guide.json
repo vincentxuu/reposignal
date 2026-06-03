@@ -1,0 +1,20 @@
+{
+  "repo": "dair-ai/Prompt-Engineering-Guide",
+  "url": "https://github.com/dair-ai/Prompt-Engineering-Guide",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 2,
+    "patterns": [
+      "ai-code-review"
+    ],
+    "security_score": 0.0,
+    "maturity_pct": 17
+  }
+}

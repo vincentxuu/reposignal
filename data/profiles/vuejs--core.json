@@ -1,0 +1,24 @@
+{
+  "repo": "vuejs/core",
+  "url": "https://github.com/vuejs/core",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 9,
+    "patterns": [
+      "ecosystem-ci",
+      "least-privilege-permissions",
+      "multi-stage-release",
+      "multiple-build-systems",
+      "reusable-workflows"
+    ],
+    "security_score": 16.67,
+    "maturity_pct": 33
+  }
+}

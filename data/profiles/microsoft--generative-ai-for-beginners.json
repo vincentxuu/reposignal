@@ -1,0 +1,20 @@
+{
+  "repo": "microsoft/generative-ai-for-beginners",
+  "url": "https://github.com/microsoft/generative-ai-for-beginners",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 5,
+    "patterns": [
+      "least-privilege-permissions"
+    ],
+    "security_score": 25.0,
+    "maturity_pct": 17
+  }
+}

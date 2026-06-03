@@ -1,0 +1,802 @@
+[
+  {
+    "owner": "ollama",
+    "repo": "ollama"
+  },
+  {
+    "owner": "sgl-project",
+    "repo": "sglang"
+  },
+  {
+    "owner": "mudler",
+    "repo": "LocalAI"
+  },
+  {
+    "owner": "NVIDIA",
+    "repo": "TensorRT-LLM"
+  },
+  {
+    "owner": "huggingface",
+    "repo": "text-generation-inference"
+  },
+  {
+    "owner": "InternLM",
+    "repo": "lmdeploy"
+  },
+  {
+    "owner": "vllm-project",
+    "repo": "vllm"
+  },
+  {
+    "owner": "Significant-Gravitas",
+    "repo": "AutoGPT"
+  },
+  {
+    "owner": "deepset-ai",
+    "repo": "haystack"
+  },
+  {
+    "owner": "microsoft",
+    "repo": "semantic-kernel"
+  },
+  {
+    "owner": "microsoft",
+    "repo": "autogen"
+  },
+  {
+    "owner": "crewAIInc",
+    "repo": "crewAI"
+  },
+  {
+    "owner": "FoundationAgents",
+    "repo": "MetaGPT"
+  },
+  {
+    "owner": "agno-agi",
+    "repo": "agno"
+  },
+  {
+    "owner": "stanfordnlp",
+    "repo": "dspy"
+  },
+  {
+    "owner": "milvus-io",
+    "repo": "milvus"
+  },
+  {
+    "owner": "chroma-core",
+    "repo": "chroma"
+  },
+  {
+    "owner": "qdrant",
+    "repo": "qdrant"
+  },
+  {
+    "owner": "weaviate",
+    "repo": "weaviate"
+  },
+  {
+    "owner": "lancedb",
+    "repo": "lancedb"
+  },
+  {
+    "owner": "hiyouga",
+    "repo": "LlamaFactory"
+  },
+  {
+    "owner": "unslothai",
+    "repo": "unsloth"
+  },
+  {
+    "owner": "deepspeedai",
+    "repo": "DeepSpeed"
+  },
+  {
+    "owner": "NVIDIA",
+    "repo": "Megatron-LM"
+  },
+  {
+    "owner": "axolotl-ai-cloud",
+    "repo": "axolotl"
+  },
+  {
+    "owner": "meta-pytorch",
+    "repo": "torchtune"
+  },
+  {
+    "owner": "huggingface",
+    "repo": "transformers"
+  },
+  {
+    "owner": "All-Hands-AI",
+    "repo": "OpenHands"
+  },
+  {
+    "owner": "continuedev",
+    "repo": "continue"
+  },
+  {
+    "owner": "Aider-AI",
+    "repo": "aider"
+  },
+  {
+    "owner": "TabbyML",
+    "repo": "tabby"
+  },
+  {
+    "owner": "SWE-agent",
+    "repo": "SWE-agent"
+  },
+  {
+    "owner": "comfyanonymous",
+    "repo": "ComfyUI"
+  },
+  {
+    "owner": "invoke-ai",
+    "repo": "InvokeAI"
+  },
+  {
+    "owner": "AUTOMATIC1111",
+    "repo": "stable-diffusion-webui"
+  },
+  {
+    "owner": "lllyasviel",
+    "repo": "Fooocus"
+  },
+  {
+    "owner": "kserve",
+    "repo": "kserve"
+  },
+  {
+    "owner": "ray-project",
+    "repo": "ray"
+  },
+  {
+    "owner": "triton-inference-server",
+    "repo": "server"
+  },
+  {
+    "owner": "bentoml",
+    "repo": "BentoML"
+  },
+  {
+    "owner": "NVIDIA",
+    "repo": "NeMo-Guardrails"
+  },
+  {
+    "owner": "vibrantlabsai",
+    "repo": "ragas"
+  },
+  {
+    "owner": "EleutherAI",
+    "repo": "lm-evaluation-harness"
+  },
+  {
+    "owner": "guardrails-ai",
+    "repo": "guardrails"
+  },
+  {
+    "owner": "microsoft",
+    "repo": "promptflow"
+  },
+  {
+    "owner": "guidance-ai",
+    "repo": "guidance"
+  },
+  {
+    "owner": "dottxt-ai",
+    "repo": "outlines"
+  },
+  {
+    "owner": "567-labs",
+    "repo": "instructor"
+  },
+  {
+    "owner": "PrefectHQ",
+    "repo": "marvin"
+  },
+  {
+    "owner": "open-webui",
+    "repo": "open-webui"
+  },
+  {
+    "owner": "lobehub",
+    "repo": "lobehub"
+  },
+  {
+    "owner": "janhq",
+    "repo": "jan"
+  },
+  {
+    "owner": "danny-avila",
+    "repo": "LibreChat"
+  },
+  {
+    "owner": "Mintplex-Labs",
+    "repo": "anything-llm"
+  },
+  {
+    "owner": "ChatGPTNextWeb",
+    "repo": "NextChat"
+  },
+  {
+    "owner": "browser-use",
+    "repo": "browser-use"
+  },
+  {
+    "owner": "modelcontextprotocol",
+    "repo": "servers"
+  },
+  {
+    "owner": "openai",
+    "repo": "codex"
+  },
+  {
+    "owner": "openai",
+    "repo": "openai-agents-python"
+  },
+  {
+    "owner": "pydantic",
+    "repo": "pydantic-ai"
+  },
+  {
+    "owner": "fastapi",
+    "repo": "fastapi"
+  },
+  {
+    "owner": "django",
+    "repo": "django"
+  },
+  {
+    "owner": "spring-projects",
+    "repo": "spring-boot"
+  },
+  {
+    "owner": "laravel",
+    "repo": "framework"
+  },
+  {
+    "owner": "cockroachdb",
+    "repo": "cockroach"
+  },
+  {
+    "owner": "surrealdb",
+    "repo": "surrealdb"
+  },
+  {
+    "owner": "pingcap",
+    "repo": "tidb"
+  },
+  {
+    "owner": "hashicorp",
+    "repo": "terraform"
+  },
+  {
+    "owner": "pulumi",
+    "repo": "pulumi"
+  },
+  {
+    "owner": "argoproj",
+    "repo": "argo-cd"
+  },
+  {
+    "owner": "containerd",
+    "repo": "containerd"
+  },
+  {
+    "owner": "vercel",
+    "repo": "next.js"
+  },
+  {
+    "owner": "angular",
+    "repo": "angular"
+  },
+  {
+    "owner": "sveltejs",
+    "repo": "svelte"
+  },
+  {
+    "owner": "vuejs",
+    "repo": "core"
+  },
+  {
+    "owner": "flutter",
+    "repo": "flutter"
+  },
+  {
+    "owner": "facebook",
+    "repo": "react-native"
+  },
+  {
+    "owner": "expo",
+    "repo": "expo"
+  },
+  {
+    "owner": "oven-sh",
+    "repo": "bun"
+  },
+  {
+    "owner": "astral-sh",
+    "repo": "uv"
+  },
+  {
+    "owner": "astral-sh",
+    "repo": "ruff"
+  },
+  {
+    "owner": "vercel",
+    "repo": "turborepo"
+  },
+  {
+    "owner": "pnpm",
+    "repo": "pnpm"
+  },
+  {
+    "owner": "gradle",
+    "repo": "gradle"
+  },
+  {
+    "owner": "grafana",
+    "repo": "grafana"
+  },
+  {
+    "owner": "prometheus",
+    "repo": "prometheus"
+  },
+  {
+    "owner": "open-telemetry",
+    "repo": "opentelemetry-collector"
+  },
+  {
+    "owner": "aquasecurity",
+    "repo": "trivy"
+  },
+  {
+    "owner": "falcosecurity",
+    "repo": "falco"
+  },
+  {
+    "owner": "goreleaser",
+    "repo": "goreleaser"
+  },
+  {
+    "owner": "zed-industries",
+    "repo": "zed"
+  },
+  {
+    "owner": "openclaw",
+    "repo": "openclaw"
+  },
+  {
+    "owner": "denoland",
+    "repo": "deno"
+  },
+  {
+    "owner": "tauri-apps",
+    "repo": "tauri"
+  },
+  {
+    "owner": "Effect-TS",
+    "repo": "effect"
+  },
+  {
+    "owner": "honojs",
+    "repo": "hono"
+  },
+  {
+    "owner": "rust-lang",
+    "repo": "rust"
+  },
+  {
+    "owner": "BurntSushi",
+    "repo": "ripgrep"
+  },
+  {
+    "owner": "biomejs",
+    "repo": "biome"
+  },
+  {
+    "owner": "oxc-project",
+    "repo": "oxc"
+  },
+  {
+    "owner": "NVIDIA",
+    "repo": "NemoClaw"
+  },
+  {
+    "owner": "sdras",
+    "repo": "awesome-actions"
+  },
+  {
+    "owner": "Alliedium",
+    "repo": "awesome-github-actions"
+  },
+  {
+    "owner": "brandonhimpfen",
+    "repo": "awesome-github-actions"
+  },
+  {
+    "owner": "ligurio",
+    "repo": "awesome-ci"
+  },
+  {
+    "owner": "meirwah",
+    "repo": "awesome-workflow-engines"
+  },
+  {
+    "owner": "dariubs",
+    "repo": "awesome-workflow-automation"
+  },
+  {
+    "owner": "codecrafters-io",
+    "repo": "build-your-own-x"
+  },
+  {
+    "owner": "sindresorhus",
+    "repo": "awesome"
+  },
+  {
+    "owner": "freeCodeCamp",
+    "repo": "freeCodeCamp"
+  },
+  {
+    "owner": "public-apis",
+    "repo": "public-apis"
+  },
+  {
+    "owner": "EbookFoundation",
+    "repo": "free-programming-books"
+  },
+  {
+    "owner": "kamranahmedse",
+    "repo": "developer-roadmap"
+  },
+  {
+    "owner": "donnemartin",
+    "repo": "system-design-primer"
+  },
+  {
+    "owner": "jwasham",
+    "repo": "coding-interview-university"
+  },
+  {
+    "owner": "vinta",
+    "repo": "awesome-python"
+  },
+  {
+    "owner": "awesome-selfhosted",
+    "repo": "awesome-selfhosted"
+  },
+  {
+    "owner": "996icu",
+    "repo": "996.ICU"
+  },
+  {
+    "owner": "practical-tutorials",
+    "repo": "project-based-learning"
+  },
+  {
+    "owner": "facebook",
+    "repo": "react"
+  },
+  {
+    "owner": "torvalds",
+    "repo": "linux"
+  },
+  {
+    "owner": "TheAlgorithms",
+    "repo": "Python"
+  },
+  {
+    "owner": "trimstray",
+    "repo": "the-book-of-secret-knowledge"
+  },
+  {
+    "owner": "vuejs",
+    "repo": "vue"
+  },
+  {
+    "owner": "ossu",
+    "repo": "computer-science"
+  },
+  {
+    "owner": "trekhleb",
+    "repo": "javascript-algorithms"
+  },
+  {
+    "owner": "tensorflow",
+    "repo": "tensorflow"
+  },
+  {
+    "owner": "ohmyzsh",
+    "repo": "ohmyzsh"
+  },
+  {
+    "owner": "getify",
+    "repo": "You-Dont-Know-JS"
+  },
+  {
+    "owner": "CyC2018",
+    "repo": "CS-Notes"
+  },
+  {
+    "owner": "microsoft",
+    "repo": "vscode"
+  },
+  {
+    "owner": "n8n-io",
+    "repo": "n8n"
+  },
+  {
+    "owner": "jackfrued",
+    "repo": "Python-100-Days"
+  },
+  {
+    "owner": "twbs",
+    "repo": "bootstrap"
+  },
+  {
+    "owner": "github",
+    "repo": "gitignore"
+  },
+  {
+    "owner": "massgravel",
+    "repo": "Microsoft-Activation-Scripts"
+  },
+  {
+    "owner": "avelino",
+    "repo": "awesome-go"
+  },
+  {
+    "owner": "jlevy",
+    "repo": "the-art-of-command-line"
+  },
+  {
+    "owner": "DigitalPlatDev",
+    "repo": "FreeDomain"
+  },
+  {
+    "owner": "Snailclimb",
+    "repo": "JavaGuide"
+  },
+  {
+    "owner": "f",
+    "repo": "prompts.chat"
+  },
+  {
+    "owner": "yt-dlp",
+    "repo": "yt-dlp"
+  },
+  {
+    "owner": "airbnb",
+    "repo": "javascript"
+  },
+  {
+    "owner": "521xueweihan",
+    "repo": "HelloGitHub"
+  },
+  {
+    "owner": "langflow-ai",
+    "repo": "langflow"
+  },
+  {
+    "owner": "ytdl-org",
+    "repo": "youtube-dl"
+  },
+  {
+    "owner": "yangshun",
+    "repo": "tech-interview-handbook"
+  },
+  {
+    "owner": "Genymobile",
+    "repo": "scrcpy"
+  },
+  {
+    "owner": "langgenius",
+    "repo": "dify"
+  },
+  {
+    "owner": "x1xhlol",
+    "repo": "system-prompts-and-models-of-ai-tools"
+  },
+  {
+    "owner": "golang",
+    "repo": "go"
+  },
+  {
+    "owner": "labuladong",
+    "repo": "fucking-algorithm"
+  },
+  {
+    "owner": "anomalyco",
+    "repo": "opencode"
+  },
+  {
+    "owner": "langchain-ai",
+    "repo": "langchain"
+  },
+  {
+    "owner": "microsoft",
+    "repo": "PowerToys"
+  },
+  {
+    "owner": "Chalarangelo",
+    "repo": "30-seconds-of-code"
+  },
+  {
+    "owner": "krahets",
+    "repo": "hello-algo"
+  },
+  {
+    "owner": "kubernetes",
+    "repo": "kubernetes"
+  },
+  {
+    "owner": "obra",
+    "repo": "superpowers"
+  },
+  {
+    "owner": "electron",
+    "repo": "electron"
+  },
+  {
+    "owner": "ripienaar",
+    "repo": "free-for-dev"
+  },
+  {
+    "owner": "excalidraw",
+    "repo": "excalidraw"
+  },
+  {
+    "owner": "justjavac",
+    "repo": "free-programming-books-zh_CN"
+  },
+  {
+    "owner": "nodejs",
+    "repo": "node"
+  },
+  {
+    "owner": "affaan-m",
+    "repo": "everything-claude-code"
+  },
+  {
+    "owner": "iptv-org",
+    "repo": "iptv"
+  },
+  {
+    "owner": "d3",
+    "repo": "d3"
+  },
+  {
+    "owner": "mrdoob",
+    "repo": "three.js"
+  },
+  {
+    "owner": "shadcn-ui",
+    "repo": "ui"
+  },
+  {
+    "owner": "rustdesk",
+    "repo": "rustdesk"
+  },
+  {
+    "owner": "Hack-with-Github",
+    "repo": "Awesome-Hacking"
+  },
+  {
+    "owner": "axios",
+    "repo": "axios"
+  },
+  {
+    "owner": "microsoft",
+    "repo": "generative-ai-for-beginners"
+  },
+  {
+    "owner": "godotengine",
+    "repo": "godot"
+  },
+  {
+    "owner": "microsoft",
+    "repo": "TypeScript"
+  },
+  {
+    "owner": "Comfy-Org",
+    "repo": "ComfyUI"
+  },
+  {
+    "owner": "GrowingGit",
+    "repo": "GitHub-Chinese-Top-Charts"
+  },
+  {
+    "owner": "clash-verge-rev",
+    "repo": "clash-verge-rev"
+  },
+  {
+    "owner": "fatedier",
+    "repo": "frp"
+  },
+  {
+    "owner": "anthropics",
+    "repo": "skills"
+  },
+  {
+    "owner": "goldbergyoni",
+    "repo": "nodebestpractices"
+  },
+  {
+    "owner": "papers-we-love",
+    "repo": "papers-we-love"
+  },
+  {
+    "owner": "Shubhamsaboo",
+    "repo": "awesome-llm-apps"
+  },
+  {
+    "owner": "facebook",
+    "repo": "create-react-app"
+  },
+  {
+    "owner": "microsoft",
+    "repo": "terminal"
+  },
+  {
+    "owner": "deepseek-ai",
+    "repo": "DeepSeek-V3"
+  },
+  {
+    "owner": "jaywcjlove",
+    "repo": "awesome-mac"
+  },
+  {
+    "owner": "firecrawl",
+    "repo": "firecrawl"
+  },
+  {
+    "owner": "2dust",
+    "repo": "v2rayN"
+  },
+  {
+    "owner": "supabase",
+    "repo": "supabase"
+  },
+  {
+    "owner": "ggml-org",
+    "repo": "llama.cpp"
+  },
+  {
+    "owner": "google-gemini",
+    "repo": "gemini-cli"
+  },
+  {
+    "owner": "Anduin2017",
+    "repo": "HowToCook"
+  },
+  {
+    "owner": "pytorch",
+    "repo": "pytorch"
+  },
+  {
+    "owner": "mtdvio",
+    "repo": "every-programmer-should-know"
+  },
+  {
+    "owner": "mui",
+    "repo": "material-ui"
+  },
+  {
+    "owner": "ant-design",
+    "repo": "ant-design"
+  },
+  {
+    "owner": "neovim",
+    "repo": "neovim"
+  },
+  {
+    "owner": "openai",
+    "repo": "whisper"
+  },
+  {
+    "owner": "immich-app",
+    "repo": "immich"
+  }
+]

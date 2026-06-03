@@ -1,0 +1,20 @@
+{
+  "repo": "Chalarangelo/30-seconds-of-code",
+  "url": "https://github.com/Chalarangelo/30-seconds-of-code",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 4,
+    "patterns": [
+      "least-privilege-permissions"
+    ],
+    "security_score": 6.25,
+    "maturity_pct": 33
+  }
+}

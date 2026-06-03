@@ -1,0 +1,27 @@
+{
+  "repo": "gradle/gradle",
+  "url": "https://github.com/gradle/gradle",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 20,
+    "patterns": [
+      "dogfooding",
+      "ecosystem-ci",
+      "flaky-test-retry",
+      "hardware-matrix",
+      "least-privilege-permissions",
+      "multi-stage-release",
+      "performance-tracking",
+      "security-scanning"
+    ],
+    "security_score": 32.08,
+    "maturity_pct": 83
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "repo": "aquasecurity/trivy",
+  "url": "https://github.com/aquasecurity/trivy",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 22,
+    "patterns": [
+      "container-signing",
+      "multi-channel-release",
+      "multi-stage-release",
+      "per-sample-ci",
+      "python-future-testing",
+      "reusable-workflows",
+      "security-scanning"
+    ],
+    "security_score": 28.33,
+    "maturity_pct": 50
+  }
+}

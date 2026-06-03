@@ -1,0 +1,29 @@
+{
+  "repo": "NVIDIA/Megatron-LM",
+  "url": "https://github.com/NVIDIA/Megatron-LM",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 31,
+    "patterns": [
+      "ai-code-review",
+      "chaos-engineering",
+      "ecosystem-ci",
+      "flaky-test-retry",
+      "hardware-matrix",
+      "least-privilege-permissions",
+      "multi-channel-release",
+      "multi-stage-release",
+      "per-sample-ci",
+      "reusable-workflows"
+    ],
+    "security_score": 8.06,
+    "maturity_pct": 67
+  }
+}

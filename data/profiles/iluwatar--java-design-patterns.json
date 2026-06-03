@@ -1,0 +1,22 @@
+{
+  "repo": "iluwatar/java-design-patterns",
+  "url": "https://github.com/iluwatar/java-design-patterns",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 4,
+    "patterns": [
+      "ai-code-review",
+      "ecosystem-ci",
+      "least-privilege-permissions"
+    ],
+    "security_score": 12.5,
+    "maturity_pct": 50
+  }
+}

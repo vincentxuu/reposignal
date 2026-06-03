@@ -1,0 +1,24 @@
+{
+  "repo": "guidance-ai/guidance",
+  "url": "https://github.com/guidance-ai/guidance",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 12,
+    "patterns": [
+      "cross-version-compat",
+      "hardware-matrix",
+      "least-privilege-permissions",
+      "python-future-testing",
+      "reusable-workflows"
+    ],
+    "security_score": 12.5,
+    "maturity_pct": 33
+  }
+}

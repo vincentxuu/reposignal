@@ -1,0 +1,31 @@
+{
+  "repo": "openai/codex",
+  "url": "https://github.com/openai/codex",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 19,
+    "patterns": [
+      "ai-code-review",
+      "chaos-engineering",
+      "container-signing",
+      "dogfooding",
+      "ecosystem-ci",
+      "hardware-matrix",
+      "least-privilege-permissions",
+      "multi-channel-release",
+      "multi-stage-release",
+      "multiple-build-systems",
+      "performance-tracking",
+      "reusable-workflows"
+    ],
+    "security_score": 18.59,
+    "maturity_pct": 67
+  }
+}

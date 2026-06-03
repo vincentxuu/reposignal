@@ -1,0 +1,26 @@
+{
+  "repo": "mui/material-ui",
+  "url": "https://github.com/mui/material-ui",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 17,
+    "patterns": [
+      "dogfooding",
+      "least-privilege-permissions",
+      "multi-channel-release",
+      "multi-stage-release",
+      "performance-tracking",
+      "reusable-workflows",
+      "security-scanning"
+    ],
+    "security_score": 41.67,
+    "maturity_pct": 67
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "repo": "containerd/containerd",
+  "url": "https://github.com/containerd/containerd",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 17,
+    "patterns": [
+      "chaos-engineering",
+      "container-signing",
+      "cross-version-compat",
+      "dogfooding",
+      "ecosystem-ci",
+      "flaky-test-retry",
+      "fuzz-randomized-testing",
+      "hardware-matrix",
+      "least-privilege-permissions",
+      "multi-channel-release",
+      "multi-stage-release",
+      "per-sample-ci",
+      "performance-tracking",
+      "reusable-workflows",
+      "security-scanning"
+    ],
+    "security_score": 61.67,
+    "maturity_pct": 67
+  }
+}

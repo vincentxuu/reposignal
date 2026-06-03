@@ -1,0 +1,28 @@
+{
+  "repo": "microsoft/vscode",
+  "url": "https://github.com/microsoft/vscode",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 13,
+    "patterns": [
+      "ai-code-review",
+      "chaos-engineering",
+      "ecosystem-ci",
+      "flaky-test-retry",
+      "least-privilege-permissions",
+      "multi-channel-release",
+      "multi-stage-release",
+      "performance-tracking",
+      "reusable-workflows"
+    ],
+    "security_score": 15.38,
+    "maturity_pct": 50
+  }
+}

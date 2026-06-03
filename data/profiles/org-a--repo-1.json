@@ -1,0 +1,21 @@
+{
+  "repo": "org-a/repo-1",
+  "url": "https://github.com/org-a/repo-1",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 2,
+    "patterns": [
+      "least-privilege-permissions",
+      "security-scanning"
+    ],
+    "security_score": 16.67,
+    "maturity_pct": 33
+  }
+}

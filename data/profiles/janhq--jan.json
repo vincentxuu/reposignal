@@ -1,0 +1,29 @@
+{
+  "repo": "janhq/jan",
+  "url": "https://github.com/janhq/jan",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 26,
+    "patterns": [
+      "chaos-engineering",
+      "ecosystem-ci",
+      "flaky-test-retry",
+      "multi-channel-release",
+      "multi-stage-release",
+      "multiple-build-systems",
+      "per-sample-ci",
+      "performance-tracking",
+      "reusable-workflows",
+      "security-scanning"
+    ],
+    "security_score": 0.0,
+    "maturity_pct": 17
+  }
+}

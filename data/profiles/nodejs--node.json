@@ -1,0 +1,31 @@
+{
+  "repo": "nodejs/node",
+  "url": "https://github.com/nodejs/node",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 37,
+    "patterns": [
+      "chaos-engineering",
+      "dogfooding",
+      "flaky-test-retry",
+      "harden-runner",
+      "hardware-matrix",
+      "least-privilege-permissions",
+      "multi-channel-release",
+      "multi-stage-release",
+      "multiple-build-systems",
+      "per-sample-ci",
+      "performance-tracking",
+      "security-scanning"
+    ],
+    "security_score": 60.83,
+    "maturity_pct": 83
+  }
+}

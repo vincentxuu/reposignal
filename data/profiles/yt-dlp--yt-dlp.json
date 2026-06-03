@@ -1,0 +1,32 @@
+{
+  "repo": "yt-dlp/yt-dlp",
+  "url": "https://github.com/yt-dlp/yt-dlp",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 11,
+    "patterns": [
+      "chaos-engineering",
+      "cross-version-compat",
+      "dogfooding",
+      "flaky-test-retry",
+      "hardware-matrix",
+      "least-privilege-permissions",
+      "multi-channel-release",
+      "multi-stage-release",
+      "per-sample-ci",
+      "performance-tracking",
+      "python-future-testing",
+      "reusable-workflows",
+      "security-scanning"
+    ],
+    "security_score": 33.33,
+    "maturity_pct": 83
+  }
+}

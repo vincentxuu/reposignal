@@ -1,0 +1,26 @@
+{
+  "repo": "TabbyML/tabby",
+  "url": "https://github.com/TabbyML/tabby",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 16,
+    "patterns": [
+      "chaos-engineering",
+      "ecosystem-ci",
+      "hardware-matrix",
+      "least-privilege-permissions",
+      "multi-channel-release",
+      "multi-stage-release",
+      "multiple-build-systems"
+    ],
+    "security_score": 10.94,
+    "maturity_pct": 67
+  }
+}

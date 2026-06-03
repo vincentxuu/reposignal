@@ -1,0 +1,21 @@
+{
+  "repo": "triton-inference-server/server",
+  "url": "https://github.com/triton-inference-server/server",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 2,
+    "patterns": [
+      "performance-tracking",
+      "security-scanning"
+    ],
+    "security_score": 12.5,
+    "maturity_pct": 33
+  }
+}

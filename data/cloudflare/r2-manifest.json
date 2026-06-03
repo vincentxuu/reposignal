@@ -1,0 +1,20 @@
+{
+  "objects": [
+    {
+      "key": "analysis/current.json",
+      "path": "data/analysis/current.json"
+    },
+    {
+      "key": "configs/batch1.json",
+      "path": "data/configs/batch1.json"
+    },
+    {
+      "key": "configs/batch2.json",
+      "path": "data/configs/batch2.json"
+    },
+    {
+      "key": "configs/batch3.json",
+      "path": "data/configs/batch3.json"
+    }
+  ]
+}

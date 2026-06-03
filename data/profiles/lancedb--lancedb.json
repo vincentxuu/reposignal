@@ -1,0 +1,30 @@
+{
+  "repo": "lancedb/lancedb",
+  "url": "https://github.com/lancedb/lancedb",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 17,
+    "patterns": [
+      "ai-code-review",
+      "chaos-engineering",
+      "container-signing",
+      "flaky-test-retry",
+      "hardware-matrix",
+      "least-privilege-permissions",
+      "multi-channel-release",
+      "multi-stage-release",
+      "multiple-build-systems",
+      "per-sample-ci",
+      "performance-tracking"
+    ],
+    "security_score": 14.02,
+    "maturity_pct": 67
+  }
+}

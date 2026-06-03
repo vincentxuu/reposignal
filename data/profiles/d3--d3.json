@@ -1,0 +1,20 @@
+{
+  "repo": "d3/d3",
+  "url": "https://github.com/d3/d3",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 2,
+    "patterns": [
+      "multi-stage-release"
+    ],
+    "security_score": 0.0,
+    "maturity_pct": 0
+  }
+}

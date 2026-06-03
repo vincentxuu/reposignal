@@ -1,0 +1,23 @@
+{
+  "repo": "twbs/bootstrap",
+  "url": "https://github.com/twbs/bootstrap",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 15,
+    "patterns": [
+      "least-privilege-permissions",
+      "multi-stage-release",
+      "performance-tracking",
+      "security-scanning"
+    ],
+    "security_score": 44.16,
+    "maturity_pct": 33
+  }
+}

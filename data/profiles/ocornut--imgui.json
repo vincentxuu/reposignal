@@ -1,0 +1,22 @@
+{
+  "repo": "ocornut/imgui",
+  "url": "https://github.com/ocornut/imgui",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 4,
+    "patterns": [
+      "chaos-engineering",
+      "multiple-build-systems",
+      "performance-tracking"
+    ],
+    "security_score": 0.0,
+    "maturity_pct": 0
+  }
+}

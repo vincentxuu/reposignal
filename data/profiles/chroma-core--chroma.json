@@ -1,0 +1,28 @@
+{
+  "repo": "chroma-core/chroma",
+  "url": "https://github.com/chroma-core/chroma",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 21,
+    "patterns": [
+      "container-signing",
+      "hardware-matrix",
+      "least-privilege-permissions",
+      "multi-channel-release",
+      "multi-stage-release",
+      "multiple-build-systems",
+      "per-sample-ci",
+      "performance-tracking",
+      "reusable-workflows"
+    ],
+    "security_score": 23.57,
+    "maturity_pct": 67
+  }
+}

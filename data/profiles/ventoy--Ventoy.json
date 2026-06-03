@@ -1,0 +1,18 @@
+{
+  "repo": "ventoy/Ventoy",
+  "url": "https://github.com/ventoy/Ventoy",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 2,
+    "patterns": [],
+    "security_score": 0.0,
+    "maturity_pct": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "repo": "continuedev/continue",
+  "url": "https://github.com/continuedev/continue",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 30,
+    "patterns": [
+      "ai-code-review",
+      "container-signing",
+      "cross-version-compat",
+      "ecosystem-ci",
+      "flaky-test-retry",
+      "hardware-matrix",
+      "least-privilege-permissions",
+      "multi-channel-release",
+      "multi-stage-release",
+      "multiple-build-systems",
+      "reusable-workflows",
+      "security-scanning"
+    ],
+    "security_score": 19.17,
+    "maturity_pct": 67
+  }
+}

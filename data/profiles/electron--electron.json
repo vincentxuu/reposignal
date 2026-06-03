@@ -1,0 +1,31 @@
+{
+  "repo": "electron/electron",
+  "url": "https://github.com/electron/electron",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 40,
+    "patterns": [
+      "chaos-engineering",
+      "dogfooding",
+      "ecosystem-ci",
+      "flaky-test-retry",
+      "hardware-matrix",
+      "least-privilege-permissions",
+      "multi-channel-release",
+      "multi-stage-release",
+      "per-sample-ci",
+      "performance-tracking",
+      "reusable-workflows",
+      "security-scanning"
+    ],
+    "security_score": 48.33,
+    "maturity_pct": 83
+  }
+}

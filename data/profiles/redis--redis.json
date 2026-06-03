@@ -1,0 +1,23 @@
+{
+  "repo": "redis/redis",
+  "url": "https://github.com/redis/redis",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 10,
+    "patterns": [
+      "multi-channel-release",
+      "multi-stage-release",
+      "performance-tracking",
+      "security-scanning"
+    ],
+    "security_score": 20.0,
+    "maturity_pct": 50
+  }
+}

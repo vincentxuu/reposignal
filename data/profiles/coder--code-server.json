@@ -1,0 +1,25 @@
+{
+  "repo": "coder/code-server",
+  "url": "https://github.com/coder/code-server",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 7,
+    "patterns": [
+      "ecosystem-ci",
+      "hardware-matrix",
+      "least-privilege-permissions",
+      "multi-stage-release",
+      "performance-tracking",
+      "security-scanning"
+    ],
+    "security_score": 35.12,
+    "maturity_pct": 83
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "repo": "fatedier/frp",
+  "url": "https://github.com/fatedier/frp",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 4,
+    "patterns": [
+      "least-privilege-permissions",
+      "multi-stage-release"
+    ],
+    "security_score": 18.75,
+    "maturity_pct": 17
+  }
+}

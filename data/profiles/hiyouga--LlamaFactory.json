@@ -1,0 +1,23 @@
+{
+  "repo": "hiyouga/LlamaFactory",
+  "url": "https://github.com/hiyouga/LlamaFactory",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 7,
+    "patterns": [
+      "cross-version-compat",
+      "hardware-matrix",
+      "least-privilege-permissions",
+      "multi-stage-release"
+    ],
+    "security_score": 3.57,
+    "maturity_pct": 67
+  }
+}

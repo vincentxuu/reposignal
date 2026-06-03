@@ -1,0 +1,25 @@
+{
+  "repo": "junegunn/fzf",
+  "url": "https://github.com/junegunn/fzf",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 8,
+    "patterns": [
+      "container-signing",
+      "fuzz-randomized-testing",
+      "least-privilege-permissions",
+      "multi-stage-release",
+      "performance-tracking",
+      "security-scanning"
+    ],
+    "security_score": 41.45,
+    "maturity_pct": 50
+  }
+}

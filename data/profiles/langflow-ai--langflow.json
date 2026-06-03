@@ -1,0 +1,33 @@
+{
+  "repo": "langflow-ai/langflow",
+  "url": "https://github.com/langflow-ai/langflow",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 35,
+    "patterns": [
+      "ai-code-review",
+      "chaos-engineering",
+      "cross-version-compat",
+      "ecosystem-ci",
+      "flaky-test-retry",
+      "hardware-matrix",
+      "least-privilege-permissions",
+      "multi-channel-release",
+      "multi-stage-release",
+      "multiple-build-systems",
+      "per-sample-ci",
+      "performance-tracking",
+      "reusable-workflows",
+      "security-scanning"
+    ],
+    "security_score": 15.36,
+    "maturity_pct": 83
+  }
+}

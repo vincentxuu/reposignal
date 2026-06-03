@@ -1,0 +1,22 @@
+{
+  "repo": "flutter/flutter",
+  "url": "https://github.com/flutter/flutter",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 14,
+    "patterns": [
+      "least-privilege-permissions",
+      "multi-channel-release",
+      "multi-stage-release"
+    ],
+    "security_score": 16.07,
+    "maturity_pct": 17
+  }
+}

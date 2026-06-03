@@ -1,0 +1,27 @@
+{
+  "repo": "pnpm/pnpm",
+  "url": "https://github.com/pnpm/pnpm",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 8,
+    "patterns": [
+      "cross-version-compat",
+      "dogfooding",
+      "least-privilege-permissions",
+      "multi-stage-release",
+      "multiple-build-systems",
+      "performance-tracking",
+      "reusable-workflows",
+      "security-scanning"
+    ],
+    "security_score": 34.38,
+    "maturity_pct": 50
+  }
+}

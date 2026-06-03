@@ -1,0 +1,30 @@
+{
+  "repo": "kserve/kserve",
+  "url": "https://github.com/kserve/kserve",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 39,
+    "patterns": [
+      "cross-version-compat",
+      "ecosystem-ci",
+      "flaky-test-retry",
+      "hardware-matrix",
+      "least-privilege-permissions",
+      "multi-channel-release",
+      "multi-stage-release",
+      "multiple-build-systems",
+      "per-sample-ci",
+      "performance-tracking",
+      "security-scanning"
+    ],
+    "security_score": 14.42,
+    "maturity_pct": 83
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "repo": "realworld-apps/realworld",
+  "url": "https://github.com/realworld-apps/realworld",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 4,
+    "patterns": [
+      "least-privilege-permissions",
+      "performance-tracking",
+      "security-scanning"
+    ],
+    "security_score": 14.58,
+    "maturity_pct": 67
+  }
+}

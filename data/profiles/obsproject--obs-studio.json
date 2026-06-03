@@ -1,0 +1,28 @@
+{
+  "repo": "obsproject/obs-studio",
+  "url": "https://github.com/obsproject/obs-studio",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 9,
+    "patterns": [
+      "container-signing",
+      "dogfooding",
+      "ecosystem-ci",
+      "hardware-matrix",
+      "least-privilege-permissions",
+      "multi-channel-release",
+      "multi-stage-release",
+      "reusable-workflows",
+      "security-scanning"
+    ],
+    "security_score": 38.06,
+    "maturity_pct": 83
+  }
+}

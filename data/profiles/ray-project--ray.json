@@ -1,0 +1,18 @@
+{
+  "repo": "ray-project/ray",
+  "url": "https://github.com/ray-project/ray",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 4,
+    "patterns": [],
+    "security_score": 0.0,
+    "maturity_pct": 0
+  }
+}

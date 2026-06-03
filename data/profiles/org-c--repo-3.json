@@ -1,0 +1,18 @@
+{
+  "repo": "org-c/repo-3",
+  "url": "https://github.com/org-c/repo-3",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 1,
+    "patterns": [],
+    "security_score": 0.0,
+    "maturity_pct": 0
+  }
+}

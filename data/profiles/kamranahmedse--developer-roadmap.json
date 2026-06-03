@@ -1,0 +1,18 @@
+{
+  "repo": "kamranahmedse/developer-roadmap",
+  "url": "https://github.com/kamranahmedse/developer-roadmap",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 10,
+    "patterns": [],
+    "security_score": 0.0,
+    "maturity_pct": 0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "repo": "open-webui/open-webui",
+  "url": "https://github.com/open-webui/open-webui",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 5,
+    "patterns": [
+      "chaos-engineering",
+      "ecosystem-ci",
+      "hardware-matrix",
+      "multi-channel-release",
+      "multi-stage-release"
+    ],
+    "security_score": 0.0,
+    "maturity_pct": 17
+  }
+}

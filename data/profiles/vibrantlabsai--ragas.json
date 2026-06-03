@@ -1,0 +1,23 @@
+{
+  "repo": "vibrantlabsai/ragas",
+  "url": "https://github.com/vibrantlabsai/ragas",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 8,
+    "patterns": [
+      "ai-code-review",
+      "cross-version-compat",
+      "least-privilege-permissions",
+      "multi-stage-release"
+    ],
+    "security_score": 9.38,
+    "maturity_pct": 67
+  }
+}

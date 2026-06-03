@@ -1,0 +1,21 @@
+{
+  "repo": "openai/whisper",
+  "url": "https://github.com/openai/whisper",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 2,
+    "patterns": [
+      "cross-version-compat",
+      "ecosystem-ci"
+    ],
+    "security_score": 0.0,
+    "maturity_pct": 33
+  }
+}

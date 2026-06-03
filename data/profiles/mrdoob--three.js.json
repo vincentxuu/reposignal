@@ -1,0 +1,23 @@
+{
+  "repo": "mrdoob/three.js",
+  "url": "https://github.com/mrdoob/three.js",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 5,
+    "patterns": [
+      "cross-version-compat",
+      "least-privilege-permissions",
+      "performance-tracking",
+      "security-scanning"
+    ],
+    "security_score": 32.5,
+    "maturity_pct": 50
+  }
+}

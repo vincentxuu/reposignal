@@ -1,0 +1,18 @@
+{
+  "repo": "AUTOMATIC1111/stable-diffusion-webui",
+  "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 3,
+    "patterns": [],
+    "security_score": 0.0,
+    "maturity_pct": 17
+  }
+}

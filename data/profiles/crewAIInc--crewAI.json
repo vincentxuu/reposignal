@@ -1,0 +1,26 @@
+{
+  "repo": "crewAIInc/crewAI",
+  "url": "https://github.com/crewAIInc/crewAI",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 13,
+    "patterns": [
+      "cross-version-compat",
+      "least-privilege-permissions",
+      "multi-channel-release",
+      "multi-stage-release",
+      "multiple-build-systems",
+      "performance-tracking",
+      "security-scanning"
+    ],
+    "security_score": 38.71,
+    "maturity_pct": 67
+  }
+}

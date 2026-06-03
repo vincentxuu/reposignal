@@ -1,0 +1,28 @@
+{
+  "repo": "weaviate/weaviate",
+  "url": "https://github.com/weaviate/weaviate",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 8,
+    "patterns": [
+      "ai-code-review",
+      "ai-security-review",
+      "dogfooding",
+      "flaky-test-retry",
+      "hardware-matrix",
+      "least-privilege-permissions",
+      "multi-channel-release",
+      "multi-stage-release",
+      "security-scanning"
+    ],
+    "security_score": 13.55,
+    "maturity_pct": 83
+  }
+}

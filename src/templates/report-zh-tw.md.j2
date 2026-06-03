@@ -1,0 +1,286 @@
+# CI/CD 情報摘要
+
+**日期：** {{ date }}
+**產生時間：** {{ results.generated_at }}
+**分析範圍：** {{ results.total_repos }} 個 repository、{{ results.total_workflows }} 個 workflow
+
+---
+
+{% if results.insights %}
+## 關鍵發現
+
+{% for insight in results.insights %}
+- {{ insight.zh }}
+{% endfor %}
+
+---
+{% endif %}
+
+{% if results.recommendations %}
+## 建議行動
+
+{% for rec in results.recommendations %}
+{{ loop.index }}. {{ rec.zh }}
+{% endfor %}
+
+---
+{% endif %}
+
+## 1. Matrix Strategy 使用率
+
+{{ results.matrix_usage.total_repos }} 個 repo 中有 {{ results.matrix_usage.matrix_repos }} 個使用 matrix strategy（**{{ results.matrix_usage.percentage }}%**）。
+
+> Matrix strategy 讓你在多個 OS、語言版本或配置上平行測試。高採用率意味著生態系已將多平台測試視為基本配備。
+
+---
+
+## 2. 最常用的 {{ results.popular_actions_categorized | length }} 個 GitHub Actions（依類別）
+
+| 排名 | Action | 類別 | 說明 | 使用次數 |
+|------|--------|------|------|----------|
+{% for action in results.popular_actions_categorized %}
+| {{ loop.index }} | [`{{ action.action }}`]({{ action.url }}) | {{ action.category }} | {{ action.desc or "—" }} | {{ action.count }} |
+{% endfor %}
+
+{% if not results.popular_actions_categorized %}
+_無 action 資料。_
+{% endif %}
+
+---
+
+## 3. AI 程式碼審查採用率
+
+共 **{{ results.ai_review_adoption.count }}** 個 repo（{{ "%.1f" | format(results.ai_review_adoption.count / results.total_repos * 100 if results.total_repos else 0) }}%）使用 AI 程式碼審查 workflow。
+
+> AI 程式碼審查是目前成長最快的 CI/CD 模式之一。這些 repo 已將 AI 審查直接整合進 PR 流程。
+
+{% if results.ai_review_adoption.tool_breakdown %}
+### 工具比較
+
+{% for tool in results.ai_review_adoption.tool_breakdown %}
+#### {{ tool.name | default(tool.action) }} — {{ tool.count }} 個 repo 使用
+
+- **Action：** [`{{ tool.action }}`]({{ tool.url }})
+- **模型：** {{ tool.model | default("未知") }}
+- **審查方式：** {{ tool.approach_zh | default(tool.approach | default("—")) }}
+- **Prompt 設定：** {{ tool.prompt_style_zh | default(tool.prompt_style | default("—")) }}
+
+{% endfor %}
+{% endif %}
+
+{% if results.ai_review_adoption.repos_detailed %}
+### 使用 AI 審查的 Repo
+
+| Repository | 使用的 AI 審查工具 |
+|------------|-------------------|
+{% for entry in results.ai_review_adoption.repos_detailed %}
+| [`{{ entry.repo }}`]({{ entry.url }}) | {{ entry.actions | join(', ') }} |
+{% endfor %}
+
+{% endif %}
+
+---
+
+## 4. 安全態勢
+
+### 明確 Permissions 設定
+
+{{ results.permissions_usage.total_workflows }} 個 workflow 中有 {{ results.permissions_usage.with_permissions }} 個設定了明確的 permissions（**{{ results.permissions_usage.percentage }}%**）。
+
+> 沒有明確設定 `permissions:` 時，GitHub 預設授予 read-write 權限。設定 permissions 遵循最小權限原則，限制 token 外洩時的損害範圍。
+
+### 安全掃描
+
+{% if results.security_scan_adoption %}
+共 **{{ results.security_scan_adoption.count }}** 個 repo（{{ "%.1f" | format(results.security_scan_adoption.count / results.total_repos * 100 if results.total_repos else 0) }}%）在 CI 中執行自動化安全掃描。
+
+{% if results.security_scan_adoption.repos %}
+<details>
+<summary>有安全掃描的 Repository 列表</summary>
+
+{% for repo in results.security_scan_adoption.repos %}
+- [`{{ repo }}`](https://github.com/{{ repo }})
+{% endfor %}
+
+</details>
+{% endif %}
+{% endif %}
+
+---
+
+## 5. Workflow 指紋（前 10 大 Action 組合）
+
+> 指紋揭示了常見的「配方」——多個 repo 不約而同收斂到的 action 組合。如果很多 repo 獨立得出相同組合，那很可能是經過驗證的模式。
+
+{% if results.workflow_fingerprints %}
+{% for fp in results.workflow_fingerprints %}
+### #{{ loop.index }} — {{ fp.actions | join(' + ') }}（{{ fp.count }} 個 workflows）
+
+- **範例 repos：**
+  {% for repo in fp.example_repos %}
+  - [`{{ repo }}`](https://github.com/{{ repo }})
+  {% endfor %}
+
+{% endfor %}
+{% else %}
+_無指紋資料。_
+{% endif %}
+
+---
+
+{% if results.pattern_detection %}
+## 6. CI/CD Pattern 偵測
+
+已偵測到研究分類中的 **{{ results.pattern_detection.detected_patterns }}** / **{{ results.pattern_detection.total_patterns }}** 種 pattern。
+
+{% for category in results.pattern_detection.categories %}
+### {{ category.category }}
+
+| Pattern | 採用率 | 範例 repos |
+|---------|--------|------------|
+{% for pattern in category.patterns %}
+| {{ pattern.name }} | {{ pattern.repo_count }} 個 repo（{{ pattern.adoption_pct }}%） | {{ pattern.repos[:3] | join(', ') or '—' }} |
+{% endfor %}
+
+{% endfor %}
+
+---
+{% endif %}
+
+{% if results.security_posture %}
+## 7. 安全態勢分數
+
+平均分數：**{{ results.security_posture.average_score }}/100**。
+
+### 分數最高的 Repositories
+
+| Repository | 分數 | 安全工具 | 建議下一步 |
+|------------|------|----------|------------|
+{% for item in results.security_posture.top[:10] %}
+| [`{{ item.repo }}`]({{ item.url }}) | {{ item.score }} | {{ item.security_tools | join(', ') or '—' }} | {{ item.recommendations[0] if item.recommendations else '持續維護現有控制。' }} |
+{% endfor %}
+
+---
+{% endif %}
+
+{% if results.workflow_changelog and results.workflow_changelog.available %}
+## 8. Workflow 變更摘要
+
+- 新增 workflows：{{ results.workflow_changelog.added_workflows | length }}
+- 移除 workflows：{{ results.workflow_changelog.removed_workflows | length }}
+- Pattern 有變化的 repos：{{ results.workflow_changelog.changed_patterns | length }}
+
+{% if results.workflow_changelog.changed_patterns %}
+| Repository | 新增 patterns | 移除 patterns |
+|------------|---------------|---------------|
+{% for item in results.workflow_changelog.changed_patterns[:20] %}
+| {{ item.repo }} | {{ item.added_patterns | join(', ') or '—' }} | {{ item.removed_patterns | join(', ') or '—' }} |
+{% endfor %}
+{% endif %}
+
+---
+{% endif %}
+
+{% if results.data_quality %}
+## 9. 資料品質
+
+狀態：**{{ results.data_quality.status }}**。Rows：{{ results.data_quality.row_count }}，repos：{{ results.data_quality.repo_count }}，重複 workflow rows：{{ results.data_quality.duplicate_count }}。
+
+{% if results.data_quality.issues %}
+{% for issue in results.data_quality.issues %}
+- {{ issue }}
+{% endfor %}
+{% else %}
+未偵測到 schema 或重複列問題。
+{% endif %}
+
+---
+{% endif %}
+
+{% if results.repo_summaries %}
+## 10. 各 Repo 診斷卡
+
+> 依 6 項 CI/CD 實踐評分：Matrix 測試、明確 permissions、安全掃描、AI 程式碼審查、CI 快取、並行控制。點擊 repo 名稱可在 GitHub 查看 workflows。
+
+### 分數分佈
+
+| 分數 | Repo 數量 |
+|------|-----------|
+{% for score in range(results.repo_summaries[0].maturity_max, -1, -1) %}
+{% set count = results.repo_summaries | selectattr("maturity_score", "equalto", score) | list | length %}
+{% if count > 0 %}
+| {{ score }}/{{ results.repo_summaries[0].maturity_max }} | {{ count }} |
+{% endif %}
+{% endfor %}
+
+---
+
+{% for r in results.repo_summaries %}
+### [`{{ r.repo }}`]({{ r.url }}) — 分數：{{ r.maturity_score }}/{{ r.maturity_max }}
+
+| 實踐項目 | 狀態 |
+|----------|------|
+| Matrix 測試 | {{ "Y" if r.has_matrix else "—" }} |
+| 明確 permissions | {{ "Y" if r.has_permissions else "—" }} |
+| 安全掃描 | {{ "Y" if r.has_security_scan else "—" }} |
+| AI 程式碼審查 | {{ "Y" if r.has_ai_review else "—" }} |
+| CI 快取 | {{ "Y" if r.has_cache else "—" }} |
+| 並行控制 | {{ "Y" if r.has_concurrency else "—" }} |
+
+{% if r.missing_zh %}
+**可以加入：** {{ r.missing_zh | join('、') }}
+{% endif %}
+
+{% if r.notable_actions %}
+**特色 actions：** {{ r.notable_actions | join(', ') }}
+{% endif %}
+
+<details>
+<summary>{{ r.workflow_count }} 個 workflows</summary>
+
+{% for wf in r.workflows %}
+**{{ wf.name }}** — 觸發條件：{{ wf.triggers | join(', ') or '無' }} | {{ wf.job_count }} 個 jobs | 執行環境：{{ wf.runs_on | join(', ') or '—' }}
+{% if wf.notable_actions %}
+  - 特色：{{ wf.notable_actions | join(', ') }}
+{% endif %}
+{% if wf.uses_matrix %}
+  - 使用 matrix strategy
+{% endif %}
+{% if wf.has_ai_review %}
+  - 有 AI 程式碼審查
+{% endif %}
+{% if wf.has_security_scan %}
+  - 有安全掃描
+{% endif %}
+{% if wf.uses_reusable_workflows %}
+  - 使用 reusable workflows
+{% endif %}
+
+{% endfor %}
+</details>
+
+---
+
+{% endfor %}
+{% endif %}
+
+---
+
+{% if results.diffs %}
+## 與上次執行的差異
+
+| 指標 | 上次 | 本次 | 變化 |
+|------|------|------|------|
+{% for diff in results.diffs %}
+| {{ diff.metric }} | {{ diff.prev_value }} | {{ diff.curr_value }} | {{ "%+g" | format(diff.delta) }} |
+{% endfor %}
+
+---
+{% endif %}
+
+## 中繼資料
+
+- 分析引擎：DuckDB + Python
+- 報告模板：Jinja2
+- 資料來源：`data/processed/cicd.parquet`
+- 分區資料來源：`data/processed/crawl_date=*/cicd.parquet`

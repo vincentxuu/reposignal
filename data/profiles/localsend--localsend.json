@@ -1,0 +1,20 @@
+{
+  "repo": "localsend/localsend",
+  "url": "https://github.com/localsend/localsend",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 11,
+    "patterns": [
+      "multi-stage-release"
+    ],
+    "security_score": 0.0,
+    "maturity_pct": 0
+  }
+}

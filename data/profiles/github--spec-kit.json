@@ -1,0 +1,27 @@
+{
+  "repo": "github/spec-kit",
+  "url": "https://github.com/github/spec-kit",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 7,
+    "patterns": [
+      "chaos-engineering",
+      "cross-version-compat",
+      "dogfooding",
+      "least-privilege-permissions",
+      "multi-channel-release",
+      "multi-stage-release",
+      "performance-tracking",
+      "security-scanning"
+    ],
+    "security_score": 22.62,
+    "maturity_pct": 67
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "repo": "Mintplex-Labs/anything-llm",
+  "url": "https://github.com/Mintplex-Labs/anything-llm",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 9,
+    "patterns": [
+      "container-signing",
+      "least-privilege-permissions",
+      "multi-stage-release"
+    ],
+    "security_score": 9.45,
+    "maturity_pct": 50
+  }
+}

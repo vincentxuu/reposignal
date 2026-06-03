@@ -1,0 +1,31 @@
+{
+  "repo": "apache/superset",
+  "url": "https://github.com/apache/superset",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 42,
+    "patterns": [
+      "ai-code-review",
+      "chaos-engineering",
+      "container-signing",
+      "cross-version-compat",
+      "ecosystem-ci",
+      "hardware-matrix",
+      "least-privilege-permissions",
+      "multi-stage-release",
+      "multiple-build-systems",
+      "per-sample-ci",
+      "performance-tracking",
+      "security-scanning"
+    ],
+    "security_score": 24.04,
+    "maturity_pct": 100
+  }
+}

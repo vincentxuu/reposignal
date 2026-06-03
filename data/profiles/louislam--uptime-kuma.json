@@ -1,0 +1,27 @@
+{
+  "repo": "louislam/uptime-kuma",
+  "url": "https://github.com/louislam/uptime-kuma",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 18,
+    "patterns": [
+      "ai-code-review",
+      "cross-version-compat",
+      "least-privilege-permissions",
+      "multi-channel-release",
+      "multi-stage-release",
+      "per-sample-ci",
+      "performance-tracking",
+      "security-scanning"
+    ],
+    "security_score": 34.72,
+    "maturity_pct": 100
+  }
+}

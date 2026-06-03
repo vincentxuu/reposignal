@@ -1,0 +1,28 @@
+{
+  "repo": "biomejs/biome",
+  "url": "https://github.com/biomejs/biome",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 32,
+    "patterns": [
+      "container-signing",
+      "ecosystem-ci",
+      "hardware-matrix",
+      "least-privilege-permissions",
+      "multi-channel-release",
+      "multi-stage-release",
+      "multiple-build-systems",
+      "per-sample-ci",
+      "performance-tracking"
+    ],
+    "security_score": 25.47,
+    "maturity_pct": 67
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "repo": "meta-pytorch/torchtune",
+  "url": "https://github.com/meta-pytorch/torchtune",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 8,
+    "patterns": [
+      "cross-version-compat",
+      "hardware-matrix",
+      "least-privilege-permissions",
+      "reusable-workflows"
+    ],
+    "security_score": 12.5,
+    "maturity_pct": 50
+  }
+}

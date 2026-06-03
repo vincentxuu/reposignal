@@ -1,0 +1,24 @@
+{
+  "repo": "jesseduffield/lazygit",
+  "url": "https://github.com/jesseduffield/lazygit",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 6,
+    "patterns": [
+      "chaos-engineering",
+      "cross-version-compat",
+      "least-privilege-permissions",
+      "multi-channel-release",
+      "multi-stage-release"
+    ],
+    "security_score": 8.33,
+    "maturity_pct": 50
+  }
+}

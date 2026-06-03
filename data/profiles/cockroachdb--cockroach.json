@@ -1,0 +1,29 @@
+{
+  "repo": "cockroachdb/cockroach",
+  "url": "https://github.com/cockroachdb/cockroach",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 22,
+    "patterns": [
+      "ai-code-review",
+      "ai-security-review",
+      "chaos-engineering",
+      "dogfooding",
+      "flaky-test-retry",
+      "least-privilege-permissions",
+      "multi-channel-release",
+      "multi-stage-release",
+      "multiple-build-systems",
+      "performance-tracking"
+    ],
+    "security_score": 9.77,
+    "maturity_pct": 83
+  }
+}

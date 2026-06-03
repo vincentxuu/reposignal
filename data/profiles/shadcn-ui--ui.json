@@ -1,0 +1,22 @@
+{
+  "repo": "shadcn-ui/ui",
+  "url": "https://github.com/shadcn-ui/ui",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 7,
+    "patterns": [
+      "least-privilege-permissions",
+      "multi-channel-release",
+      "multi-stage-release"
+    ],
+    "security_score": 7.14,
+    "maturity_pct": 33
+  }
+}

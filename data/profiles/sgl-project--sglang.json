@@ -1,0 +1,33 @@
+{
+  "repo": "sgl-project/sglang",
+  "url": "https://github.com/sgl-project/sglang",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 65,
+    "patterns": [
+      "ai-code-review",
+      "chaos-engineering",
+      "cross-version-compat",
+      "ecosystem-ci",
+      "flaky-test-retry",
+      "fuzz-randomized-testing",
+      "hardware-matrix",
+      "least-privilege-permissions",
+      "multi-channel-release",
+      "multi-stage-release",
+      "multiple-build-systems",
+      "per-sample-ci",
+      "performance-tracking",
+      "reusable-workflows"
+    ],
+    "security_score": 7.69,
+    "maturity_pct": 67
+  }
+}

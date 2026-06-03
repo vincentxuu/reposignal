@@ -1,0 +1,30 @@
+{
+  "repo": "Stirling-Tools/Stirling-PDF",
+  "url": "https://github.com/Stirling-Tools/Stirling-PDF",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 23,
+    "patterns": [
+      "chaos-engineering",
+      "container-signing",
+      "ecosystem-ci",
+      "flaky-test-retry",
+      "harden-runner",
+      "least-privilege-permissions",
+      "multi-stage-release",
+      "multiple-build-systems",
+      "per-sample-ci",
+      "performance-tracking",
+      "security-scanning"
+    ],
+    "security_score": 67.24,
+    "maturity_pct": 83
+  }
+}

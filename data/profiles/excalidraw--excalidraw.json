@@ -1,0 +1,22 @@
+{
+  "repo": "excalidraw/excalidraw",
+  "url": "https://github.com/excalidraw/excalidraw",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 11,
+    "patterns": [
+      "ecosystem-ci",
+      "multi-channel-release",
+      "multi-stage-release"
+    ],
+    "security_score": 0.0,
+    "maturity_pct": 0
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "repo": "microsoft/autogen",
+  "url": "https://github.com/microsoft/autogen",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 12,
+    "patterns": [
+      "ai-code-review",
+      "cross-version-compat",
+      "ecosystem-ci",
+      "least-privilege-permissions",
+      "multi-channel-release",
+      "multi-stage-release",
+      "multiple-build-systems",
+      "performance-tracking",
+      "security-scanning"
+    ],
+    "security_score": 18.75,
+    "maturity_pct": 67
+  }
+}

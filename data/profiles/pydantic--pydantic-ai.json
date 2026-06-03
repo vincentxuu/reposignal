@@ -1,0 +1,28 @@
+{
+  "repo": "pydantic/pydantic-ai",
+  "url": "https://github.com/pydantic/pydantic-ai",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 7,
+    "patterns": [
+      "ai-code-review",
+      "ai-security-review",
+      "chaos-engineering",
+      "cross-version-compat",
+      "least-privilege-permissions",
+      "multi-channel-release",
+      "multi-stage-release",
+      "multiple-build-systems",
+      "python-future-testing"
+    ],
+    "security_score": 14.29,
+    "maturity_pct": 83
+  }
+}

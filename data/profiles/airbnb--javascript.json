@@ -1,0 +1,22 @@
+{
+  "repo": "airbnb/javascript",
+  "url": "https://github.com/airbnb/javascript",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 4,
+    "patterns": [
+      "cross-version-compat",
+      "ecosystem-ci",
+      "hardware-matrix"
+    ],
+    "security_score": 0.0,
+    "maturity_pct": 17
+  }
+}

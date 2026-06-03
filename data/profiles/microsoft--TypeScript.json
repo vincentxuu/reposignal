@@ -1,0 +1,27 @@
+{
+  "repo": "microsoft/TypeScript",
+  "url": "https://github.com/microsoft/TypeScript",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 18,
+    "patterns": [
+      "ai-code-review",
+      "cross-version-compat",
+      "dogfooding",
+      "least-privilege-permissions",
+      "multi-channel-release",
+      "multi-stage-release",
+      "performance-tracking",
+      "security-scanning"
+    ],
+    "security_score": 44.44,
+    "maturity_pct": 83
+  }
+}

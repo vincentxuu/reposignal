@@ -1,0 +1,21 @@
+{
+  "repo": "FoundationAgents/MetaGPT",
+  "url": "https://github.com/FoundationAgents/MetaGPT",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 5,
+    "patterns": [
+      "ai-code-review",
+      "multi-stage-release"
+    ],
+    "security_score": 0.0,
+    "maturity_pct": 17
+  }
+}

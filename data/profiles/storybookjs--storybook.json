@@ -1,0 +1,26 @@
+{
+  "repo": "storybookjs/storybook",
+  "url": "https://github.com/storybookjs/storybook",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 15,
+    "patterns": [
+      "ai-code-review",
+      "ai-security-review",
+      "chaos-engineering",
+      "least-privilege-permissions",
+      "multi-channel-release",
+      "multi-stage-release",
+      "per-sample-ci"
+    ],
+    "security_score": 11.67,
+    "maturity_pct": 50
+  }
+}

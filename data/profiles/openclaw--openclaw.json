@@ -1,0 +1,29 @@
+{
+  "repo": "openclaw/openclaw",
+  "url": "https://github.com/openclaw/openclaw",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 13,
+    "patterns": [
+      "chaos-engineering",
+      "ecosystem-ci",
+      "flaky-test-retry",
+      "hardware-matrix",
+      "least-privilege-permissions",
+      "multi-channel-release",
+      "multi-stage-release",
+      "multiple-build-systems",
+      "per-sample-ci",
+      "security-scanning"
+    ],
+    "security_score": 37.12,
+    "maturity_pct": 83
+  }
+}

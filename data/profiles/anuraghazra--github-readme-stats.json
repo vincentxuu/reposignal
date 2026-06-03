@@ -1,0 +1,22 @@
+{
+  "repo": "anuraghazra/github-readme-stats",
+  "url": "https://github.com/anuraghazra/github-readme-stats",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 14,
+    "patterns": [
+      "least-privilege-permissions",
+      "performance-tracking",
+      "security-scanning"
+    ],
+    "security_score": 39.88,
+    "maturity_pct": 50
+  }
+}

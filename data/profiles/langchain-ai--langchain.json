@@ -1,0 +1,26 @@
+{
+  "repo": "langchain-ai/langchain",
+  "url": "https://github.com/langchain-ai/langchain",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 19,
+    "patterns": [
+      "ai-code-review",
+      "chaos-engineering",
+      "hardware-matrix",
+      "least-privilege-permissions",
+      "multi-stage-release",
+      "performance-tracking",
+      "reusable-workflows"
+    ],
+    "security_score": 40.0,
+    "maturity_pct": 50
+  }
+}

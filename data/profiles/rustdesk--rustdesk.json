@@ -1,0 +1,28 @@
+{
+  "repo": "rustdesk/rustdesk",
+  "url": "https://github.com/rustdesk/rustdesk",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 10,
+    "patterns": [
+      "chaos-engineering",
+      "cross-version-compat",
+      "ecosystem-ci",
+      "hardware-matrix",
+      "least-privilege-permissions",
+      "multi-channel-release",
+      "multi-stage-release",
+      "multiple-build-systems",
+      "reusable-workflows"
+    ],
+    "security_score": 2.5,
+    "maturity_pct": 50
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "repo": "org-b/repo-2",
+  "url": "https://github.com/org-b/repo-2",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 2,
+    "patterns": [
+      "ai-code-review"
+    ],
+    "security_score": 0.0,
+    "maturity_pct": 33
+  }
+}

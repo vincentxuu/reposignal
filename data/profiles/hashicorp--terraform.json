@@ -1,0 +1,25 @@
+{
+  "repo": "hashicorp/terraform",
+  "url": "https://github.com/hashicorp/terraform",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 10,
+    "patterns": [
+      "dogfooding",
+      "ecosystem-ci",
+      "hardware-matrix",
+      "least-privilege-permissions",
+      "multi-stage-release",
+      "reusable-workflows"
+    ],
+    "security_score": 17.5,
+    "maturity_pct": 50
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "repo": "oxc-project/oxc",
+  "url": "https://github.com/oxc-project/oxc",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 27,
+    "patterns": [
+      "ai-code-review",
+      "chaos-engineering",
+      "container-signing",
+      "dogfooding",
+      "ecosystem-ci",
+      "fuzz-randomized-testing",
+      "hardware-matrix",
+      "least-privilege-permissions",
+      "multi-stage-release",
+      "multiple-build-systems",
+      "performance-tracking",
+      "reusable-workflows",
+      "security-scanning"
+    ],
+    "security_score": 33.06,
+    "maturity_pct": 100
+  }
+}

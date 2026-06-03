@@ -1,0 +1,21 @@
+{
+  "repo": "microsoft/ML-For-Beginners",
+  "url": "https://github.com/microsoft/ML-For-Beginners",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 3,
+    "patterns": [
+      "container-signing",
+      "reusable-workflows"
+    ],
+    "security_score": 13.33,
+    "maturity_pct": 0
+  }
+}

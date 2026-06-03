@@ -1,0 +1,31 @@
+{
+  "repo": "argoproj/argo-cd",
+  "url": "https://github.com/argoproj/argo-cd",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 14,
+    "patterns": [
+      "chaos-engineering",
+      "container-signing",
+      "cross-version-compat",
+      "ecosystem-ci",
+      "hardware-matrix",
+      "least-privilege-permissions",
+      "multi-channel-release",
+      "multi-stage-release",
+      "per-sample-ci",
+      "performance-tracking",
+      "reusable-workflows",
+      "security-scanning"
+    ],
+    "security_score": 77.26,
+    "maturity_pct": 83
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "repo": "2dust/v2rayN",
+  "url": "https://github.com/2dust/v2rayN",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 6,
+    "patterns": [
+      "ecosystem-ci",
+      "least-privilege-permissions",
+      "multi-stage-release"
+    ],
+    "security_score": 4.17,
+    "maturity_pct": 33
+  }
+}

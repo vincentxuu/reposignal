@@ -1,0 +1,32 @@
+{
+  "repo": "pulumi/pulumi",
+  "url": "https://github.com/pulumi/pulumi",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 28,
+    "patterns": [
+      "chaos-engineering",
+      "container-signing",
+      "dogfooding",
+      "ecosystem-ci",
+      "fuzz-randomized-testing",
+      "hardware-matrix",
+      "least-privilege-permissions",
+      "multi-channel-release",
+      "multi-stage-release",
+      "multiple-build-systems",
+      "per-sample-ci",
+      "performance-tracking",
+      "reusable-workflows"
+    ],
+    "security_score": 37.86,
+    "maturity_pct": 67
+  }
+}

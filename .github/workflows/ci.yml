@@ -1,0 +1,86 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      run_pipeline:
+        description: Run the RepoSignal crawl/analyze/report pipeline
+        required: false
+        default: "false"
+  schedule:
+    - cron: "17 3 * * 1"
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version-file: .python-version
+
+      - name: Install dependencies
+        run: uv sync --frozen
+
+      - name: Run tests
+        run: uv run python -m pytest tests/ -q
+
+  scheduled-pipeline:
+    name: Scheduled intelligence pipeline
+    if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.run_pipeline == 'true')
+    runs-on: ubuntu-latest
+    needs: test
+    permissions:
+      contents: read
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version-file: .python-version
+
+      - name: Install dependencies
+        run: uv sync --frozen
+
+      - name: Run RepoSignal pipeline
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: uv run python run.py
+
+      - name: Export Cloudflare data artifacts
+        run: uv run python -m src.scripts.export_cloudflare_data
+
+      - name: Upload generated intelligence artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: reposignal-intelligence
+          path: |
+            reports/
+            data/analysis/
+            data/configs/
+            data/cloudflare/
+            data/profiles/
+            data/processed/
+          if-no-files-found: error

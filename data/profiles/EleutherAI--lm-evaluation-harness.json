@@ -1,0 +1,21 @@
+{
+  "repo": "EleutherAI/lm-evaluation-harness",
+  "url": "https://github.com/EleutherAI/lm-evaluation-harness",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 3,
+    "patterns": [
+      "cross-version-compat",
+      "performance-tracking"
+    ],
+    "security_score": 0.0,
+    "maturity_pct": 33
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "repo": "dottxt-ai/outlines",
+  "url": "https://github.com/dottxt-ai/outlines",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 5,
+    "patterns": [
+      "chaos-engineering",
+      "least-privilege-permissions",
+      "multi-channel-release",
+      "multi-stage-release"
+    ],
+    "security_score": 10.0,
+    "maturity_pct": 50
+  }
+}

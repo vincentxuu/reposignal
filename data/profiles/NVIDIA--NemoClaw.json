@@ -1,0 +1,24 @@
+{
+  "repo": "NVIDIA/NemoClaw",
+  "url": "https://github.com/NVIDIA/NemoClaw",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 9,
+    "patterns": [
+      "chaos-engineering",
+      "ecosystem-ci",
+      "least-privilege-permissions",
+      "multi-channel-release",
+      "multi-stage-release"
+    ],
+    "security_score": 25.0,
+    "maturity_pct": 33
+  }
+}

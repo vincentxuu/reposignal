@@ -1,0 +1,21 @@
+{
+  "repo": "microsoft/terminal",
+  "url": "https://github.com/microsoft/terminal",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 3,
+    "patterns": [
+      "least-privilege-permissions",
+      "multi-channel-release"
+    ],
+    "security_score": 8.33,
+    "maturity_pct": 17
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "repo": "EbookFoundation/free-programming-books",
+  "url": "https://github.com/EbookFoundation/free-programming-books",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 7,
+    "patterns": [
+      "ecosystem-ci",
+      "least-privilege-permissions"
+    ],
+    "security_score": 21.43,
+    "maturity_pct": 50
+  }
+}

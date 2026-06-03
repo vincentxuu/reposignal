@@ -1,0 +1,286 @@
+# CI/CD Intelligence Brief
+
+**Date:** {{ date }}
+**Generated at:** {{ results.generated_at }}
+**Scope:** {{ results.total_repos }} repositories, {{ results.total_workflows }} workflows
+
+---
+
+{% if results.insights %}
+## Key Insights
+
+{% for insight in results.insights %}
+- {{ insight.en }}
+{% endfor %}
+
+---
+{% endif %}
+
+{% if results.recommendations %}
+## Recommendations
+
+{% for rec in results.recommendations %}
+{{ loop.index }}. {{ rec.en }}
+{% endfor %}
+
+---
+{% endif %}
+
+## 1. Matrix Strategy Usage
+
+{{ results.matrix_usage.matrix_repos }} out of {{ results.matrix_usage.total_repos }} repositories use matrix strategies (**{{ results.matrix_usage.percentage }}%**).
+
+> Matrix strategies let you test across multiple OS, language versions, or configurations in parallel. High adoption means the ecosystem treats multi-platform testing as table stakes.
+
+---
+
+## 2. Top {{ results.popular_actions_categorized | length }} GitHub Actions (by category)
+
+| Rank | Action | Category | Description | Usage |
+|------|--------|----------|-------------|-------|
+{% for action in results.popular_actions_categorized %}
+| {{ loop.index }} | [`{{ action.action }}`]({{ action.url }}) | {{ action.category }} | {{ action.desc or "—" }} | {{ action.count }} |
+{% endfor %}
+
+{% if not results.popular_actions_categorized %}
+_No action data available._
+{% endif %}
+
+---
+
+## 3. AI-Based Code Review Adoption
+
+**{{ results.ai_review_adoption.count }}** repositories ({{ "%.1f" | format(results.ai_review_adoption.count / results.total_repos * 100 if results.total_repos else 0) }}%) use AI-based review workflows.
+
+> AI code review is one of the fastest-growing CI/CD patterns. These repos have integrated AI reviewers directly into their PR workflow.
+
+{% if results.ai_review_adoption.tool_breakdown %}
+### Tool Comparison
+
+{% for tool in results.ai_review_adoption.tool_breakdown %}
+#### {{ tool.name | default(tool.action) }} — used by {{ tool.count }} repos
+
+- **Action:** [`{{ tool.action }}`]({{ tool.url }})
+- **Model:** {{ tool.model | default("Unknown") }}
+- **Approach:** {{ tool.approach | default("—") }}
+- **Prompt configuration:** {{ tool.prompt_style | default("—") }}
+
+{% endfor %}
+{% endif %}
+
+{% if results.ai_review_adoption.repos_detailed %}
+### Repos using AI review
+
+| Repository | AI Review Tool(s) |
+|------------|-------------------|
+{% for entry in results.ai_review_adoption.repos_detailed %}
+| [`{{ entry.repo }}`]({{ entry.url }}) | {{ entry.actions | join(', ') }} |
+{% endfor %}
+
+{% endif %}
+
+---
+
+## 4. Security Posture
+
+### Explicit Permissions
+
+{{ results.permissions_usage.with_permissions }} out of {{ results.permissions_usage.total_workflows }} workflows set explicit permissions (**{{ results.permissions_usage.percentage }}%**).
+
+> Without explicit `permissions:`, GitHub grants read-write access by default. Setting permissions follows the principle of least privilege and limits damage from compromised tokens.
+
+### Security Scanning
+
+{% if results.security_scan_adoption %}
+**{{ results.security_scan_adoption.count }}** repositories ({{ "%.1f" | format(results.security_scan_adoption.count / results.total_repos * 100 if results.total_repos else 0) }}%) run automated security scans in CI.
+
+{% if results.security_scan_adoption.repos %}
+<details>
+<summary>Repositories with security scanning</summary>
+
+{% for repo in results.security_scan_adoption.repos %}
+- [`{{ repo }}`](https://github.com/{{ repo }})
+{% endfor %}
+
+</details>
+{% endif %}
+{% endif %}
+
+---
+
+## 5. Workflow Fingerprints (Top 10 Action Combinations)
+
+> Fingerprints reveal common "recipes" — the action combinations that repos converge on. If many repos independently arrive at the same combo, it's likely a proven pattern.
+
+{% if results.workflow_fingerprints %}
+{% for fp in results.workflow_fingerprints %}
+### #{{ loop.index }} — {{ fp.actions | join(' + ') }} ({{ fp.count }} workflows)
+
+- **Example repos:**
+  {% for repo in fp.example_repos %}
+  - [`{{ repo }}`](https://github.com/{{ repo }})
+  {% endfor %}
+
+{% endfor %}
+{% else %}
+_No fingerprint data available._
+{% endif %}
+
+---
+
+{% if results.pattern_detection %}
+## 6. CI/CD Pattern Detection
+
+Detected **{{ results.pattern_detection.detected_patterns }}** of **{{ results.pattern_detection.total_patterns }}** tracked patterns from the research taxonomy.
+
+{% for category in results.pattern_detection.categories %}
+### {{ category.category }}
+
+| Pattern | Adoption | Example repos |
+|---------|----------|---------------|
+{% for pattern in category.patterns %}
+| {{ pattern.name }} | {{ pattern.repo_count }} repos ({{ pattern.adoption_pct }}%) | {{ pattern.repos[:3] | join(', ') or '—' }} |
+{% endfor %}
+
+{% endfor %}
+
+---
+{% endif %}
+
+{% if results.security_posture %}
+## 7. Security Posture Scores
+
+Average score: **{{ results.security_posture.average_score }}/100**.
+
+### Top Repositories
+
+| Repository | Score | Security tools | Recommended next step |
+|------------|-------|----------------|-----------------------|
+{% for item in results.security_posture.top[:10] %}
+| [`{{ item.repo }}`]({{ item.url }}) | {{ item.score }} | {{ item.security_tools | join(', ') or '—' }} | {{ item.recommendations[0] if item.recommendations else 'Keep current controls fresh.' }} |
+{% endfor %}
+
+---
+{% endif %}
+
+{% if results.workflow_changelog and results.workflow_changelog.available %}
+## 8. Workflow Changelog
+
+- Added workflows: {{ results.workflow_changelog.added_workflows | length }}
+- Removed workflows: {{ results.workflow_changelog.removed_workflows | length }}
+- Repos with pattern changes: {{ results.workflow_changelog.changed_patterns | length }}
+
+{% if results.workflow_changelog.changed_patterns %}
+| Repository | Added patterns | Removed patterns |
+|------------|----------------|------------------|
+{% for item in results.workflow_changelog.changed_patterns[:20] %}
+| {{ item.repo }} | {{ item.added_patterns | join(', ') or '—' }} | {{ item.removed_patterns | join(', ') or '—' }} |
+{% endfor %}
+{% endif %}
+
+---
+{% endif %}
+
+{% if results.data_quality %}
+## 9. Data Quality
+
+Status: **{{ results.data_quality.status }}**. Rows: {{ results.data_quality.row_count }}, repos: {{ results.data_quality.repo_count }}, duplicate workflow rows: {{ results.data_quality.duplicate_count }}.
+
+{% if results.data_quality.issues %}
+{% for issue in results.data_quality.issues %}
+- {{ issue }}
+{% endfor %}
+{% else %}
+No schema or duplicate-row issues detected.
+{% endif %}
+
+---
+{% endif %}
+
+{% if results.repo_summaries %}
+## 10. Per-Repo Diagnostic Cards
+
+> Each repo scored on 6 CI/CD practices: Matrix testing, Explicit permissions, Security scanning, AI code review, CI caching, Concurrency control. Click any repo to view its workflows on GitHub.
+
+### Score Distribution
+
+| Score | Repos |
+|-------|-------|
+{% for score in range(results.repo_summaries[0].maturity_max, -1, -1) %}
+{% set count = results.repo_summaries | selectattr("maturity_score", "equalto", score) | list | length %}
+{% if count > 0 %}
+| {{ score }}/{{ results.repo_summaries[0].maturity_max }} | {{ count }} |
+{% endif %}
+{% endfor %}
+
+---
+
+{% for r in results.repo_summaries %}
+### [`{{ r.repo }}`]({{ r.url }}) — Score: {{ r.maturity_score }}/{{ r.maturity_max }}
+
+| Practice | Status |
+|----------|--------|
+| Matrix testing | {{ "Y" if r.has_matrix else "—" }} |
+| Explicit permissions | {{ "Y" if r.has_permissions else "—" }} |
+| Security scanning | {{ "Y" if r.has_security_scan else "—" }} |
+| AI code review | {{ "Y" if r.has_ai_review else "—" }} |
+| CI caching | {{ "Y" if r.has_cache else "—" }} |
+| Concurrency control | {{ "Y" if r.has_concurrency else "—" }} |
+
+{% if r.missing_en %}
+**Could add:** {{ r.missing_en | join(', ') }}
+{% endif %}
+
+{% if r.notable_actions %}
+**Notable actions:** {{ r.notable_actions | join(', ') }}
+{% endif %}
+
+<details>
+<summary>{{ r.workflow_count }} workflows</summary>
+
+{% for wf in r.workflows %}
+**{{ wf.name }}** — triggers: {{ wf.triggers | join(', ') or 'none' }} | {{ wf.job_count }} jobs | runs-on: {{ wf.runs_on | join(', ') or '—' }}
+{% if wf.notable_actions %}
+  - Notable: {{ wf.notable_actions | join(', ') }}
+{% endif %}
+{% if wf.uses_matrix %}
+  - Uses matrix strategy
+{% endif %}
+{% if wf.has_ai_review %}
+  - Has AI code review
+{% endif %}
+{% if wf.has_security_scan %}
+  - Has security scanning
+{% endif %}
+{% if wf.uses_reusable_workflows %}
+  - Uses reusable workflows
+{% endif %}
+
+{% endfor %}
+</details>
+
+---
+
+{% endfor %}
+{% endif %}
+
+---
+
+{% if results.diffs %}
+## Changes Since Last Run
+
+| Metric | Previous | Current | Delta |
+|--------|----------|---------|-------|
+{% for diff in results.diffs %}
+| {{ diff.metric }} | {{ diff.prev_value }} | {{ diff.curr_value }} | {{ "%+g" | format(diff.delta) }} |
+{% endfor %}
+
+---
+{% endif %}
+
+## Metadata
+
+- Analysis engine: DuckDB + Python
+- Report template: Jinja2
+- Source: `data/processed/cicd.parquet`
+- Partitioned source: `data/processed/crawl_date=*/cicd.parquet`

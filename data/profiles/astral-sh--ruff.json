@@ -1,0 +1,34 @@
+{
+  "repo": "astral-sh/ruff",
+  "url": "https://github.com/astral-sh/ruff",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 19,
+    "patterns": [
+      "chaos-engineering",
+      "container-signing",
+      "dogfooding",
+      "ecosystem-ci",
+      "flaky-test-retry",
+      "fuzz-randomized-testing",
+      "hardware-matrix",
+      "least-privilege-permissions",
+      "multi-channel-release",
+      "multi-stage-release",
+      "multiple-build-systems",
+      "per-sample-ci",
+      "performance-tracking",
+      "python-future-testing",
+      "reusable-workflows"
+    ],
+    "security_score": 39.74,
+    "maturity_pct": 67
+  }
+}

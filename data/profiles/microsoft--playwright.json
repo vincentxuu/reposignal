@@ -1,0 +1,27 @@
+{
+  "repo": "microsoft/playwright",
+  "url": "https://github.com/microsoft/playwright",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 18,
+    "patterns": [
+      "ai-code-review",
+      "cross-version-compat",
+      "flaky-test-retry",
+      "least-privilege-permissions",
+      "multi-channel-release",
+      "multi-stage-release",
+      "multiple-build-systems",
+      "per-sample-ci"
+    ],
+    "security_score": 10.28,
+    "maturity_pct": 50
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "repo": "openai/openai-agents-python",
+  "url": "https://github.com/openai/openai-agents-python",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 9,
+    "patterns": [
+      "ai-code-review",
+      "cross-version-compat",
+      "dogfooding",
+      "flaky-test-retry",
+      "least-privilege-permissions",
+      "multi-stage-release",
+      "python-future-testing"
+    ],
+    "security_score": 22.22,
+    "maturity_pct": 50
+  }
+}

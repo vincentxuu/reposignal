@@ -1,0 +1,27 @@
+{
+  "repo": "firecrawl/firecrawl",
+  "url": "https://github.com/firecrawl/firecrawl",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 19,
+    "patterns": [
+      "ai-code-review",
+      "chaos-engineering",
+      "hardware-matrix",
+      "multi-channel-release",
+      "multi-stage-release",
+      "multiple-build-systems",
+      "per-sample-ci",
+      "performance-tracking"
+    ],
+    "security_score": 0.0,
+    "maturity_pct": 50
+  }
+}

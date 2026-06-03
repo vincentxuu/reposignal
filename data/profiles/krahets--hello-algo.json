@@ -1,0 +1,22 @@
+{
+  "repo": "krahets/hello-algo",
+  "url": "https://github.com/krahets/hello-algo",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 13,
+    "patterns": [
+      "least-privilege-permissions",
+      "multi-stage-release",
+      "multiple-build-systems"
+    ],
+    "security_score": 5.77,
+    "maturity_pct": 33
+  }
+}

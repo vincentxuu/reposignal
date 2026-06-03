@@ -1,0 +1,297 @@
+[
+  {
+    "repo": "huggingface/text-generation-inference",
+    "source": "research",
+    "reason": "archived"
+  },
+  {
+    "repo": "unslothai/unsloth",
+    "source": "research",
+    "reason": "only 1 workflow file (minimum 2)"
+  },
+  {
+    "repo": "All-Hands-AI/OpenHands",
+    "source": "research",
+    "reason": "HTTP 301"
+  },
+  {
+    "repo": "comfyanonymous/ComfyUI",
+    "source": "research",
+    "reason": "HTTP 301"
+  },
+  {
+    "repo": "lllyasviel/Fooocus",
+    "source": "research",
+    "reason": "only 1 workflow file (minimum 2)"
+  },
+  {
+    "repo": "NVIDIA/NeMo-Guardrails",
+    "source": "research",
+    "reason": "HTTP 301"
+  },
+  {
+    "repo": "sdras/awesome-actions",
+    "source": "research",
+    "reason": "no programming language"
+  },
+  {
+    "repo": "brandonhimpfen/awesome-github-actions",
+    "source": "research",
+    "reason": "skip keywords in topics: {'awesome', 'awesome-list'}"
+  },
+  {
+    "repo": "ligurio/awesome-ci",
+    "source": "research",
+    "reason": "no programming language"
+  },
+  {
+    "repo": "meirwah/awesome-workflow-engines",
+    "source": "research",
+    "reason": "no programming language"
+  },
+  {
+    "repo": "dariubs/awesome-workflow-automation",
+    "source": "research",
+    "reason": "no programming language"
+  },
+  {
+    "repo": "codecrafters-io/build-your-own-x",
+    "source": "search",
+    "reason": "no .github/workflows/"
+  },
+  {
+    "repo": "public-apis/public-apis",
+    "source": "search",
+    "reason": "skip keywords in topics: {'lists', 'list'}"
+  },
+  {
+    "repo": "donnemartin/system-design-primer",
+    "source": "search",
+    "reason": "no .github/workflows/"
+  },
+  {
+    "repo": "vinta/awesome-python",
+    "source": "search",
+    "reason": "skip keywords in topics: {'awesome'}"
+  },
+  {
+    "repo": "torvalds/linux",
+    "source": "search",
+    "reason": "no .github/workflows/"
+  },
+  {
+    "repo": "ossu/computer-science",
+    "source": "search",
+    "reason": "only 1 workflow file (minimum 2)"
+  },
+  {
+    "repo": "trekhleb/javascript-algorithms",
+    "source": "search",
+    "reason": "only 1 workflow file (minimum 2)"
+  },
+  {
+    "repo": "jackfrued/Python-100-Days",
+    "source": "search",
+    "reason": "no .github/workflows/"
+  },
+  {
+    "repo": "massgravel/Microsoft-Activation-Scripts",
+    "source": "search",
+    "reason": "no .github/workflows/"
+  },
+  {
+    "repo": "avelino/awesome-go",
+    "source": "search",
+    "reason": "skip keywords in topics: {'awesome', 'awesome-list'}"
+  },
+  {
+    "repo": "DigitalPlatDev/FreeDomain",
+    "source": "search",
+    "reason": "no .github/workflows/"
+  },
+  {
+    "repo": "Snailclimb/JavaGuide",
+    "source": "search",
+    "reason": "only 1 workflow file (minimum 2)"
+  },
+  {
+    "repo": "521xueweihan/HelloGitHub",
+    "source": "search",
+    "reason": "no .github/workflows/"
+  },
+  {
+    "repo": "ytdl-org/youtube-dl",
+    "source": "search",
+    "reason": "only 1 workflow file (minimum 2)"
+  },
+  {
+    "repo": "yangshun/tech-interview-handbook",
+    "source": "search",
+    "reason": "skip keyword in description: 'interview prep'"
+  },
+  {
+    "repo": "Genymobile/scrcpy",
+    "source": "search",
+    "reason": "only 1 workflow file (minimum 2)"
+  },
+  {
+    "repo": "golang/go",
+    "source": "search",
+    "reason": "no .github/workflows/"
+  },
+  {
+    "repo": "labuladong/fucking-algorithm",
+    "source": "search",
+    "reason": "no .github/workflows/"
+  },
+  {
+    "repo": "kubernetes/kubernetes",
+    "source": "search",
+    "reason": "no .github/workflows/"
+  },
+  {
+    "repo": "obra/superpowers",
+    "source": "search",
+    "reason": "in skip list"
+  },
+  {
+    "repo": "ripienaar/free-for-dev",
+    "source": "search",
+    "reason": "skip keywords in topics: {'awesome-list'}"
+  },
+  {
+    "repo": "GrowingGit/GitHub-Chinese-Top-Charts",
+    "source": "search",
+    "reason": "no .github/workflows/"
+  },
+  {
+    "repo": "anthropics/skills",
+    "source": "search",
+    "reason": "no .github/workflows/"
+  },
+  {
+    "repo": "goldbergyoni/nodebestpractices",
+    "source": "search",
+    "reason": "in skip list"
+  },
+  {
+    "repo": "papers-we-love/papers-we-love",
+    "source": "search",
+    "reason": "only 1 workflow file (minimum 2)"
+  },
+  {
+    "repo": "Shubhamsaboo/awesome-llm-apps",
+    "source": "search",
+    "reason": "only 1 workflow file (minimum 2)"
+  },
+  {
+    "repo": "deepseek-ai/DeepSeek-V3",
+    "source": "search",
+    "reason": "only 1 workflow file (minimum 2)"
+  },
+  {
+    "repo": "jaywcjlove/awesome-mac",
+    "source": "search",
+    "reason": "skip keywords in topics: {'awesome', 'awesome-list', 'list'}"
+  },
+  {
+    "repo": "Anduin2017/HowToCook",
+    "source": "search",
+    "reason": "in skip list"
+  },
+  {
+    "repo": "nvbn/thefuck",
+    "source": "search",
+    "reason": "only 1 workflow file (minimum 2)"
+  },
+  {
+    "repo": "ryanmcdermott/clean-code-javascript",
+    "source": "search",
+    "reason": "no .github/workflows/"
+  },
+  {
+    "repo": "PanJiaChen/vue-element-admin",
+    "source": "search",
+    "reason": "no .github/workflows/"
+  },
+  {
+    "repo": "bitcoin/bitcoin",
+    "source": "search",
+    "reason": "only 1 workflow file (minimum 2)"
+  },
+  {
+    "repo": "hacksider/Deep-Live-Cam",
+    "source": "search",
+    "reason": "no .github/workflows/"
+  },
+  {
+    "repo": "macrozheng/mall",
+    "source": "search",
+    "reason": "no .github/workflows/"
+  },
+  {
+    "repo": "animate-css/animate.css",
+    "source": "search",
+    "reason": "only 1 workflow file (minimum 2)"
+  },
+  {
+    "repo": "bregman-arie/devops-exercises",
+    "source": "search",
+    "reason": "only 1 workflow file (minimum 2)"
+  },
+  {
+    "repo": "tonsky/FiraCode",
+    "source": "search",
+    "reason": "only 1 workflow file (minimum 2)"
+  },
+  {
+    "repo": "fighting41love/funNLP",
+    "source": "search",
+    "reason": "no .github/workflows/"
+  },
+  {
+    "repo": "MisterBooo/LeetCodeAnimation",
+    "source": "search",
+    "reason": "no .github/workflows/"
+  },
+  {
+    "repo": "FortAwesome/Font-Awesome",
+    "source": "search",
+    "reason": "no .github/workflows/"
+  },
+  {
+    "repo": "swisskyrepo/PayloadsAllTheThings",
+    "source": "search",
+    "reason": "skip keywords in topics: {'cheatsheet'}"
+  },
+  {
+    "repo": "nestjs/nest",
+    "source": "search",
+    "reason": "only 1 workflow file (minimum 2)"
+  },
+  {
+    "repo": "twitter/the-algorithm",
+    "source": "search",
+    "reason": "no .github/workflows/"
+  },
+  {
+    "repo": "CompVis/stable-diffusion",
+    "source": "search",
+    "reason": "no .github/workflows/"
+  },
+  {
+    "repo": "josephmisiti/awesome-machine-learning",
+    "source": "search",
+    "reason": "skip keyword in description: 'curated list'"
+  },
+  {
+    "repo": "abi/screenshot-to-code",
+    "source": "search",
+    "reason": "no .github/workflows/"
+  },
+  {
+    "repo": "PKUFlyingPig/cs-self-learning",
+    "source": "search",
+    "reason": "only 1 workflow file (minimum 2)"
+  }
+]

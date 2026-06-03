@@ -1,0 +1,25 @@
+{
+  "repo": "invoke-ai/InvokeAI",
+  "url": "https://github.com/invoke-ai/InvokeAI",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 14,
+    "patterns": [
+      "chaos-engineering",
+      "ecosystem-ci",
+      "hardware-matrix",
+      "least-privilege-permissions",
+      "multi-stage-release",
+      "reusable-workflows"
+    ],
+    "security_score": 3.57,
+    "maturity_pct": 67
+  }
+}

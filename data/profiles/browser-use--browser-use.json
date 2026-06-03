@@ -1,0 +1,26 @@
+{
+  "repo": "browser-use/browser-use",
+  "url": "https://github.com/browser-use/browser-use",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 10,
+    "patterns": [
+      "ai-code-review",
+      "flaky-test-retry",
+      "hardware-matrix",
+      "least-privilege-permissions",
+      "multi-channel-release",
+      "multi-stage-release",
+      "performance-tracking"
+    ],
+    "security_score": 20.0,
+    "maturity_pct": 83
+  }
+}

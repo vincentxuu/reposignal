@@ -1,0 +1,30 @@
+{
+  "repo": "mudler/LocalAI",
+  "url": "https://github.com/mudler/LocalAI",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 27,
+    "patterns": [
+      "chaos-engineering",
+      "cross-version-compat",
+      "dogfooding",
+      "hardware-matrix",
+      "least-privilege-permissions",
+      "multi-channel-release",
+      "multi-stage-release",
+      "multiple-build-systems",
+      "per-sample-ci",
+      "reusable-workflows",
+      "security-scanning"
+    ],
+    "security_score": 11.11,
+    "maturity_pct": 67
+  }
+}

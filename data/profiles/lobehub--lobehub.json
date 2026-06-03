@@ -1,0 +1,29 @@
+{
+  "repo": "lobehub/lobehub",
+  "url": "https://github.com/lobehub/lobehub",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 32,
+    "patterns": [
+      "ai-code-review",
+      "ai-security-review",
+      "chaos-engineering",
+      "ecosystem-ci",
+      "hardware-matrix",
+      "least-privilege-permissions",
+      "multi-channel-release",
+      "multi-stage-release",
+      "multiple-build-systems",
+      "per-sample-ci"
+    ],
+    "security_score": 16.41,
+    "maturity_pct": 67
+  }
+}

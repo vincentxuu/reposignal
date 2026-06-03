@@ -1,0 +1,4 @@
+{"t":0,"agent":"aff23e2","agent_type":"unknown","event":"agent_stop","success":true}
+{"t":0,"agent":"a57298f","agent_type":"unknown","event":"agent_stop","success":true}
+{"t":0,"agent":"a6b8739","agent_type":"unknown","event":"agent_stop","success":true}
+{"t":0,"agent":"system","event":"skill_invoked","skill_name":"format-commit"}

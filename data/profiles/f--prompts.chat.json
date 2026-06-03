@@ -1,0 +1,24 @@
+{
+  "repo": "f/prompts.chat",
+  "url": "https://github.com/f/prompts.chat",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 5,
+    "patterns": [
+      "ai-code-review",
+      "ai-security-review",
+      "chaos-engineering",
+      "ecosystem-ci",
+      "least-privilege-permissions"
+    ],
+    "security_score": 5.0,
+    "maturity_pct": 33
+  }
+}

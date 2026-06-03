@@ -1,0 +1,25 @@
+{
+  "repo": "axios/axios",
+  "url": "https://github.com/axios/axios",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 5,
+    "patterns": [
+      "container-signing",
+      "cross-version-compat",
+      "ecosystem-ci",
+      "least-privilege-permissions",
+      "multi-channel-release",
+      "multi-stage-release"
+    ],
+    "security_score": 40.0,
+    "maturity_pct": 50
+  }
+}

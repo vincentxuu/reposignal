@@ -1,0 +1,20 @@
+{
+  "repo": "SWE-agent/SWE-agent",
+  "url": "https://github.com/SWE-agent/SWE-agent",
+  "description": "",
+  "summary": "",
+  "stars": null,
+  "forks": null,
+  "language": null,
+  "license": null,
+  "topics": [],
+  "pushed_at": null,
+  "cicd": {
+    "workflow_count": 4,
+    "patterns": [
+      "least-privilege-permissions"
+    ],
+    "security_score": 6.25,
+    "maturity_pct": 67
+  }
+}
