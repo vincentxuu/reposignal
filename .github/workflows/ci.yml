@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       run_pipeline:
-        description: Run the RepoSignal crawl/analyze/report pipeline
+        description: Force a fresh crawl/analyze/report run before deploying
         required: false
         default: "false"
   schedule:
@@ -40,13 +40,12 @@ jobs:
       - name: Run tests
         run: uv run python -m pytest tests/ -q
 
-  scheduled-pipeline:
-    name: Scheduled intelligence pipeline
-    if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.run_pipeline == 'true')
-    runs-on: ubuntu-latest
+  deploy:
+    name: Build & deploy to Cloudflare Pages
+    # Never deploy from pull requests (no secrets, must not publish).
+    if: github.event_name != 'pull_request'
     needs: test
-    permissions:
-      contents: read
+    runs-on: ubuntu-latest
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -61,18 +60,44 @@ jobs:
         with:
           python-version-file: .python-version
 
-      - name: Install dependencies
+      - name: Install Python dependencies
         run: uv sync --frozen
 
-      - name: Run RepoSignal pipeline
+      # Persist generated data across runs so code-only pushes redeploy fast
+      # without re-crawling. The weekly schedule refreshes it.
+      - name: Restore analysis data cache
+        uses: actions/cache@v4
+        with:
+          path: |
+            data/raw
+            data/processed
+            data/analysis
+            data/configs
+            data/profiles
+            data/cache
+          key: reposignal-data-${{ github.run_id }}
+          restore-keys: |
+            reposignal-data-
+
+      - name: Run pipeline (scheduled, forced, or when no data is cached yet)
+        id: pipeline
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: uv run python run.py
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ] \
+            || [ "${{ inputs.run_pipeline }}" = "true" ] \
+            || [ ! -f data/analysis/current.json ]; then
+            echo "Running full pipeline…"
+            uv run python run.py
+            uv run python -m src.scripts.export_cloudflare_data
+            echo "ran=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "Reusing cached analysis data (code-only change)."
+            echo "ran=false" >> "$GITHUB_OUTPUT"
+          fi
 
-      - name: Export Cloudflare data artifacts
-        run: uv run python -m src.scripts.export_cloudflare_data
-
-      - name: Upload generated intelligence artifacts
+      - name: Upload intelligence artifacts
+        if: steps.pipeline.outputs.ran == 'true'
         uses: actions/upload-artifact@v4
         with:
           name: reposignal-intelligence
@@ -83,4 +108,27 @@ jobs:
             data/cloudflare/
             data/profiles/
             data/processed/
-          if-no-files-found: error
+          if-no-files-found: warn
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+
+      - name: Install site dependencies
+        working-directory: site
+        run: npm ci
+
+      - name: Build site
+        working-directory: site
+        run: npm run build
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          workingDirectory: site
+          command: pages deploy .svelte-kit/cloudflare --project-name=reposignal --branch=main

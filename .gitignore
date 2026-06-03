@@ -12,3 +12,7 @@ dist/
 build/
 .pytest_cache/
 .DS_Store
+
+# OMC volatile runtime state
+.omc/state/
+.omc/logs/

@@ -2,15 +2,25 @@ name = "reposignal"
 compatibility_date = "2026-05-27"
 pages_build_output_dir = ".svelte-kit/cloudflare"
 
-[[d1_databases]]
-binding = "REPOSIGNAL_DB"
-database_name = "reposignal"
-database_id = "00000000-0000-0000-0000-000000000000"
-
-[[kv_namespaces]]
-binding = "REPOSIGNAL_KV"
-id = "00000000000000000000000000000000"
-
-[[r2_buckets]]
-binding = "REPOSIGNAL_R2"
-bucket_name = "reposignal"
+# Storage bindings are disabled until real Cloudflare resources exist.
+# The site reads the bundled analysis snapshot by default (see
+# loadRuntimeAnalysis), so it deploys and runs without these.
+#
+# To enable KV-backed runtime data and the live health-check token:
+#   1. wrangler kv namespace create REPOSIGNAL_KV
+#   2. wrangler d1 create reposignal
+#   3. wrangler r2 bucket create reposignal
+#   4. paste the real IDs below and uncomment the blocks
+#
+# [[d1_databases]]
+# binding = "REPOSIGNAL_DB"
+# database_name = "reposignal"
+# database_id = "<real-d1-database-id>"
+#
+# [[kv_namespaces]]
+# binding = "REPOSIGNAL_KV"
+# id = "<real-kv-namespace-id>"
+#
+# [[r2_buckets]]
+# binding = "REPOSIGNAL_R2"
+# bucket_name = "reposignal"

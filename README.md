@@ -107,6 +107,38 @@ Cloudflare export artifacts can be generated with:
 uv run python -m src.scripts.export_cloudflare_data
 ```
 
+## Deployment (CI/CD)
+
+`.github/workflows/ci.yml` runs tests on every push/PR and, on pushes to
+`main`, builds the SvelteKit site and deploys it to Cloudflare Pages.
+
+The `deploy` job:
+
+1. Restores the analysis data from an Actions cache so code-only pushes
+   redeploy fast. On the **weekly schedule** (or a manual run with
+   `run_pipeline=true`, or when no cache exists) it re-runs the full
+   crawl/analyze/report pipeline first, then refreshes the cache.
+2. Builds the site (`npm run build`).
+3. Deploys to Cloudflare Pages via `cloudflare/wrangler-action`.
+
+### One-time setup
+
+1. Create the Cloudflare Pages project (matches `name` in
+   `site/wrangler.toml`):
+   ```bash
+   npx wrangler pages project create reposignal --production-branch=main
+   ```
+2. Create a Cloudflare API token with the **Cloudflare Pages: Edit**
+   permission, and note your **Account ID**.
+3. Add both as GitHub Actions repository secrets:
+   - `CLOUDFLARE_API_TOKEN`
+   - `CLOUDFLARE_ACCOUNT_ID`
+
+That's all that's required to go live — the site serves the bundled analysis
+snapshot. D1/KV/R2 bindings stay commented out in `site/wrangler.toml` until
+you create real resources (see the comments in that file); the site falls back
+to the bundled snapshot when they're absent.
+
 ## Architecture
 
 ```

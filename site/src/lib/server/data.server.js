@@ -38,8 +38,13 @@ export function loadConfigBatch(name) {
 export async function loadRuntimeAnalysis(platform) {
   const kv = platform?.env?.REPOSIGNAL_KV;
   if (kv) {
-    const value = await kv.get('analysis:current', { type: 'json' });
-    if (value) return value;
+    try {
+      const value = await kv.get('analysis:current', { type: 'json' });
+      if (value) return value;
+    } catch {
+      // KV binding absent or pointing at a non-existent namespace
+      // (e.g. placeholder ID) — fall back to the bundled snapshot.
+    }
   }
   return loadAnalysis();
 }
