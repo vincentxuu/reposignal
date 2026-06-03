@@ -63,11 +63,34 @@ generate_report(results)
 
 ### Build seed list
 
-Generate `seed_repos.json` from the GitHub Search API:
+Generate `seed_repos.json` from a curated research file + the GitHub Search
+API (auto-fills to `TARGET_COUNT`, default 200):
 
 ```bash
 uv run python src/scripts/build_seed_list.py
 ```
+
+### Add repos beyond the baseline
+
+To grow the analyzed universe past the auto-built baseline, add entries to
+`data/seeds/extra_repos.json` (version-controlled). These are **always merged
+on top** of the baseline on the next build — still validated (non-archived,
+≥ 2 workflow files, not a docs/list repo) but never dropped by the cap, so the
+total grows beyond 200:
+
+```json
+[
+  { "owner": "anthropics", "repo": "claude-code" },
+  { "owner": "astral-sh", "repo": "uv" }
+]
+```
+
+```bash
+uv run python src/scripts/build_seed_list.py   # baseline + extra_repos.json
+```
+
+A repo that fails validation is logged to `data/seeds/skipped-<ts>.json` with a
+reason instead of being crawled blind.
 
 ### Compare seed-list versions
 

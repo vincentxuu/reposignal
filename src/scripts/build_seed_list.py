@@ -22,6 +22,11 @@ load_dotenv()
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 SEEDS_DIR = BASE_DIR / "data" / "seeds"
 RESEARCH_MD = Path.home() / "Projects" / "github-actions-workflow-research.md"
+# Version-controlled list of repos always merged on top of the auto-built
+# baseline. This is the "keep adding beyond the 200" mechanism: append entries
+# here and they grow the analyzed universe (still validated, never dropped by
+# TARGET_COUNT).
+EXTRA_REPOS_FILE = SEEDS_DIR / "extra_repos.json"
 TARGET_COUNT = 200
 
 GITHUB_API = "https://api.github.com"
@@ -217,6 +222,47 @@ def parse_research_md(md_path: Path) -> list[dict[str, str]]:
     return repos
 
 
+def load_extra_repos(path: Path) -> list[dict[str, str]]:
+    """Load the version-controlled extra-repo list (always-included additions)."""
+    if not path.exists():
+        return []
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        logger.warning("Could not parse %s; ignoring extras", path)
+        return []
+    repos: list[dict[str, str]] = []
+    for item in data:
+        if isinstance(item, dict) and item.get("owner") and item.get("repo"):
+            repos.append({"owner": item["owner"], "repo": item["repo"]})
+    return repos
+
+
+def merge_extra_repos(extras, accepted, accepted_set, all_metadata, skipped, *, validate):
+    """Append validated extra repos on top of the baseline (beyond TARGET_COUNT).
+
+    Each extra is still validated; failures are logged + skipped (never crawled
+    blind), but a passing extra is never dropped by the cap. Mutates accepted /
+    all_metadata / skipped in place. Returns accepted.
+    """
+    for r in extras:
+        full_name = f"{r['owner']}/{r['repo']}"
+        if full_name in accepted_set:
+            logger.debug("Extra %s already in baseline; skipping duplicate", full_name)
+            continue
+        meta, skip_reason = validate(full_name)
+        if meta:
+            all_metadata[full_name] = meta
+        if skip_reason:
+            logger.warning("SKIP [manual] %s — %s", full_name, skip_reason)
+            skipped.append({"repo": full_name, "source": "manual", "reason": skip_reason})
+        else:
+            accepted.append({"owner": r["owner"], "repo": r["repo"]})
+            accepted_set.add(full_name)
+            logger.info("KEEP [manual] %s", full_name)
+    return accepted
+
+
 def build_seed_list() -> list[dict[str, str]]:
     """Build the seed list with validation on every repo."""
     SEEDS_DIR.mkdir(parents=True, exist_ok=True)
@@ -313,6 +359,16 @@ def build_seed_list() -> list[dict[str, str]]:
                 time.sleep(SEARCH_RATE_LIMIT_PAUSE)
                 if page > 10:
                     break
+
+        # Always merge the version-controlled extra-repo list on top of the
+        # baseline — the "keep adding beyond the auto 200" mechanism.
+        extras = load_extra_repos(EXTRA_REPOS_FILE)
+        if extras:
+            logger.info("Merging %d extra (manually pinned) repos on top of baseline...", len(extras))
+            merge_extra_repos(
+                extras, accepted, accepted_set, all_metadata, skipped,
+                validate=lambda full_name: validate_repo(client, full_name, source="manual"),
+            )
 
     logger.info("Final: %d accepted, %d skipped", len(accepted), len(skipped))
 
