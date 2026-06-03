@@ -1,6 +1,11 @@
 # RepoSignal
 
+[![Live site](https://img.shields.io/badge/live-reposignal.pages.dev-0891b2)](https://reposignal.pages.dev)
+[![CI](https://github.com/vincentxuu/reposignal/actions/workflows/ci.yml/badge.svg)](https://github.com/vincentxuu/reposignal/actions/workflows/ci.yml)
+
 Engineering intelligence from open source repos. Crawls GitHub Actions workflows from top open-source repos, extracts structured data, and generates intelligence briefs with insights and recommendations.
+
+**Live dashboard:** https://reposignal.pages.dev
 
 ## Quick Start
 
