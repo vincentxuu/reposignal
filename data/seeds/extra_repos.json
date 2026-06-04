@@ -1,1 +1,11 @@
-[]
+[
+  { "owner": "sigstore", "repo": "cosign" },
+  { "owner": "ossf", "repo": "scorecard" },
+  { "owner": "actions", "repo": "runner" },
+  { "owner": "cli", "repo": "cli" },
+  { "owner": "BerriAI", "repo": "litellm" },
+  { "owner": "run-llama", "repo": "llama_index" },
+  { "owner": "pydantic", "repo": "pydantic" },
+  { "owner": "pytest-dev", "repo": "pytest" },
+  { "owner": "tiangolo", "repo": "fastapi" }
+]
